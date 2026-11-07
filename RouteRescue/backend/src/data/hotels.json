@@ -1,0 +1,902 @@
+[
+  {
+    "id": "H1-1",
+    "name": "City Comfort Inn",
+    "city": "Mumbai",
+    "pricePerNight": 1300,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Mumbai transport links.",
+    "available": true
+  },
+  {
+    "id": "H1-2",
+    "name": "Urban Stay Hotel",
+    "city": "Mumbai",
+    "pricePerNight": 1750,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Mumbai transport links.",
+    "available": true
+  },
+  {
+    "id": "H1-3",
+    "name": "Grand Stay Residency",
+    "city": "Mumbai",
+    "pricePerNight": 2200,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Mumbai transport links.",
+    "available": true
+  },
+  {
+    "id": "H2-1",
+    "name": "City Comfort Inn",
+    "city": "Pune",
+    "pricePerNight": 1400,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Pune transport links.",
+    "available": true
+  },
+  {
+    "id": "H2-2",
+    "name": "Urban Stay Hotel",
+    "city": "Pune",
+    "pricePerNight": 1850,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Pune transport links.",
+    "available": true
+  },
+  {
+    "id": "H2-3",
+    "name": "Grand Stay Residency",
+    "city": "Pune",
+    "pricePerNight": 2300,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Pune transport links.",
+    "available": true
+  },
+  {
+    "id": "H3-1",
+    "name": "City Comfort Inn",
+    "city": "Ahmedabad",
+    "pricePerNight": 1500,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Ahmedabad transport links.",
+    "available": true
+  },
+  {
+    "id": "H3-2",
+    "name": "Urban Stay Hotel",
+    "city": "Ahmedabad",
+    "pricePerNight": 1950,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Ahmedabad transport links.",
+    "available": true
+  },
+  {
+    "id": "H3-3",
+    "name": "Grand Stay Residency",
+    "city": "Ahmedabad",
+    "pricePerNight": 2400,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Ahmedabad transport links.",
+    "available": true
+  },
+  {
+    "id": "H4-1",
+    "name": "City Comfort Inn",
+    "city": "Surat",
+    "pricePerNight": 1600,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Surat transport links.",
+    "available": true
+  },
+  {
+    "id": "H4-2",
+    "name": "Urban Stay Hotel",
+    "city": "Surat",
+    "pricePerNight": 2050,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Surat transport links.",
+    "available": true
+  },
+  {
+    "id": "H4-3",
+    "name": "Grand Stay Residency",
+    "city": "Surat",
+    "pricePerNight": 2500,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Surat transport links.",
+    "available": true
+  },
+  {
+    "id": "H5-1",
+    "name": "City Comfort Inn",
+    "city": "Vadodara",
+    "pricePerNight": 1300,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Vadodara transport links.",
+    "available": true
+  },
+  {
+    "id": "H5-2",
+    "name": "Urban Stay Hotel",
+    "city": "Vadodara",
+    "pricePerNight": 1750,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Vadodara transport links.",
+    "available": true
+  },
+  {
+    "id": "H5-3",
+    "name": "Grand Stay Residency",
+    "city": "Vadodara",
+    "pricePerNight": 2200,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Vadodara transport links.",
+    "available": true
+  },
+  {
+    "id": "H6-1",
+    "name": "City Comfort Inn",
+    "city": "Delhi",
+    "pricePerNight": 1400,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Delhi transport links.",
+    "available": true
+  },
+  {
+    "id": "H6-2",
+    "name": "Urban Stay Hotel",
+    "city": "Delhi",
+    "pricePerNight": 1850,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Delhi transport links.",
+    "available": true
+  },
+  {
+    "id": "H6-3",
+    "name": "Grand Stay Residency",
+    "city": "Delhi",
+    "pricePerNight": 2300,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Delhi transport links.",
+    "available": true
+  },
+  {
+    "id": "H7-1",
+    "name": "City Comfort Inn",
+    "city": "Jaipur",
+    "pricePerNight": 1500,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Jaipur transport links.",
+    "available": true
+  },
+  {
+    "id": "H7-2",
+    "name": "Urban Stay Hotel",
+    "city": "Jaipur",
+    "pricePerNight": 1950,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Jaipur transport links.",
+    "available": true
+  },
+  {
+    "id": "H7-3",
+    "name": "Grand Stay Residency",
+    "city": "Jaipur",
+    "pricePerNight": 2400,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Jaipur transport links.",
+    "available": true
+  },
+  {
+    "id": "H8-1",
+    "name": "City Comfort Inn",
+    "city": "Udaipur",
+    "pricePerNight": 1600,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Udaipur transport links.",
+    "available": true
+  },
+  {
+    "id": "H8-2",
+    "name": "Urban Stay Hotel",
+    "city": "Udaipur",
+    "pricePerNight": 2050,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Udaipur transport links.",
+    "available": true
+  },
+  {
+    "id": "H8-3",
+    "name": "Grand Stay Residency",
+    "city": "Udaipur",
+    "pricePerNight": 2500,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Udaipur transport links.",
+    "available": true
+  },
+  {
+    "id": "H9-1",
+    "name": "City Comfort Inn",
+    "city": "Indore",
+    "pricePerNight": 1300,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Indore transport links.",
+    "available": true
+  },
+  {
+    "id": "H9-2",
+    "name": "Urban Stay Hotel",
+    "city": "Indore",
+    "pricePerNight": 1750,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Indore transport links.",
+    "available": true
+  },
+  {
+    "id": "H9-3",
+    "name": "Grand Stay Residency",
+    "city": "Indore",
+    "pricePerNight": 2200,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Indore transport links.",
+    "available": true
+  },
+  {
+    "id": "H10-1",
+    "name": "City Comfort Inn",
+    "city": "Bhopal",
+    "pricePerNight": 1400,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Bhopal transport links.",
+    "available": true
+  },
+  {
+    "id": "H10-2",
+    "name": "Urban Stay Hotel",
+    "city": "Bhopal",
+    "pricePerNight": 1850,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Bhopal transport links.",
+    "available": true
+  },
+  {
+    "id": "H10-3",
+    "name": "Grand Stay Residency",
+    "city": "Bhopal",
+    "pricePerNight": 2300,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Bhopal transport links.",
+    "available": true
+  },
+  {
+    "id": "H11-1",
+    "name": "City Comfort Inn",
+    "city": "Nagpur",
+    "pricePerNight": 1500,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Nagpur transport links.",
+    "available": true
+  },
+  {
+    "id": "H11-2",
+    "name": "Urban Stay Hotel",
+    "city": "Nagpur",
+    "pricePerNight": 1950,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Nagpur transport links.",
+    "available": true
+  },
+  {
+    "id": "H11-3",
+    "name": "Grand Stay Residency",
+    "city": "Nagpur",
+    "pricePerNight": 2400,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Nagpur transport links.",
+    "available": true
+  },
+  {
+    "id": "H12-1",
+    "name": "City Comfort Inn",
+    "city": "Hyderabad",
+    "pricePerNight": 1600,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Hyderabad transport links.",
+    "available": true
+  },
+  {
+    "id": "H12-2",
+    "name": "Urban Stay Hotel",
+    "city": "Hyderabad",
+    "pricePerNight": 2050,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Hyderabad transport links.",
+    "available": true
+  },
+  {
+    "id": "H12-3",
+    "name": "Grand Stay Residency",
+    "city": "Hyderabad",
+    "pricePerNight": 2500,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Hyderabad transport links.",
+    "available": true
+  },
+  {
+    "id": "H13-1",
+    "name": "City Comfort Inn",
+    "city": "Bengaluru",
+    "pricePerNight": 1300,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Bengaluru transport links.",
+    "available": true
+  },
+  {
+    "id": "H13-2",
+    "name": "Urban Stay Hotel",
+    "city": "Bengaluru",
+    "pricePerNight": 1750,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Bengaluru transport links.",
+    "available": true
+  },
+  {
+    "id": "H13-3",
+    "name": "Grand Stay Residency",
+    "city": "Bengaluru",
+    "pricePerNight": 2200,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Bengaluru transport links.",
+    "available": true
+  },
+  {
+    "id": "H14-1",
+    "name": "City Comfort Inn",
+    "city": "Chennai",
+    "pricePerNight": 1400,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Chennai transport links.",
+    "available": true
+  },
+  {
+    "id": "H14-2",
+    "name": "Urban Stay Hotel",
+    "city": "Chennai",
+    "pricePerNight": 1850,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Chennai transport links.",
+    "available": true
+  },
+  {
+    "id": "H14-3",
+    "name": "Grand Stay Residency",
+    "city": "Chennai",
+    "pricePerNight": 2300,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Chennai transport links.",
+    "available": true
+  },
+  {
+    "id": "H15-1",
+    "name": "City Comfort Inn",
+    "city": "Kolkata",
+    "pricePerNight": 1500,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Kolkata transport links.",
+    "available": true
+  },
+  {
+    "id": "H15-2",
+    "name": "Urban Stay Hotel",
+    "city": "Kolkata",
+    "pricePerNight": 1950,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Kolkata transport links.",
+    "available": true
+  },
+  {
+    "id": "H15-3",
+    "name": "Grand Stay Residency",
+    "city": "Kolkata",
+    "pricePerNight": 2400,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Kolkata transport links.",
+    "available": true
+  },
+  {
+    "id": "H16-1",
+    "name": "City Comfort Inn",
+    "city": "Lucknow",
+    "pricePerNight": 1600,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Lucknow transport links.",
+    "available": true
+  },
+  {
+    "id": "H16-2",
+    "name": "Urban Stay Hotel",
+    "city": "Lucknow",
+    "pricePerNight": 2050,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Lucknow transport links.",
+    "available": true
+  },
+  {
+    "id": "H16-3",
+    "name": "Grand Stay Residency",
+    "city": "Lucknow",
+    "pricePerNight": 2500,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Lucknow transport links.",
+    "available": true
+  },
+  {
+    "id": "H17-1",
+    "name": "City Comfort Inn",
+    "city": "Prayagraj",
+    "pricePerNight": 1300,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Prayagraj transport links.",
+    "available": true
+  },
+  {
+    "id": "H17-2",
+    "name": "Urban Stay Hotel",
+    "city": "Prayagraj",
+    "pricePerNight": 1750,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Prayagraj transport links.",
+    "available": true
+  },
+  {
+    "id": "H17-3",
+    "name": "Grand Stay Residency",
+    "city": "Prayagraj",
+    "pricePerNight": 2200,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Prayagraj transport links.",
+    "available": true
+  },
+  {
+    "id": "H18-1",
+    "name": "City Comfort Inn",
+    "city": "Varanasi",
+    "pricePerNight": 1400,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Varanasi transport links.",
+    "available": true
+  },
+  {
+    "id": "H18-2",
+    "name": "Urban Stay Hotel",
+    "city": "Varanasi",
+    "pricePerNight": 1850,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Varanasi transport links.",
+    "available": true
+  },
+  {
+    "id": "H18-3",
+    "name": "Grand Stay Residency",
+    "city": "Varanasi",
+    "pricePerNight": 2300,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Varanasi transport links.",
+    "available": true
+  },
+  {
+    "id": "H19-1",
+    "name": "City Comfort Inn",
+    "city": "Agra",
+    "pricePerNight": 1500,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Agra transport links.",
+    "available": true
+  },
+  {
+    "id": "H19-2",
+    "name": "Urban Stay Hotel",
+    "city": "Agra",
+    "pricePerNight": 1950,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Agra transport links.",
+    "available": true
+  },
+  {
+    "id": "H19-3",
+    "name": "Grand Stay Residency",
+    "city": "Agra",
+    "pricePerNight": 2400,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Agra transport links.",
+    "available": true
+  },
+  {
+    "id": "H20-1",
+    "name": "City Comfort Inn",
+    "city": "Goa",
+    "pricePerNight": 1600,
+    "rating": 3.9,
+    "type": "Budget",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable budget stay near Goa transport links.",
+    "available": true
+  },
+  {
+    "id": "H20-2",
+    "name": "Urban Stay Hotel",
+    "city": "Goa",
+    "pricePerNight": 2050,
+    "rating": 4.3,
+    "type": "Standard",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable well-equipped stay near Goa transport links.",
+    "available": true
+  },
+  {
+    "id": "H20-3",
+    "name": "Grand Stay Residency",
+    "city": "Goa",
+    "pricePerNight": 2500,
+    "rating": 4.7,
+    "type": "Premium",
+    "facilities": [
+      "Wi-Fi",
+      "24-hour reception",
+      "Air conditioning"
+    ],
+    "description": "Comfortable premium stay near Goa transport links.",
+    "available": true
+  }
+]

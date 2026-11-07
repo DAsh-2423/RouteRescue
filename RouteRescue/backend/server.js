@@ -1,0 +1,30 @@
+import express from 'express';
+import cors from 'cors';
+import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import authRoutes from './src/routes/authRoutes.js';
+import userRoutes from './src/routes/userRoutes.js';
+import journeyRoutes from './src/routes/journeyRoutes.js';
+import adminRoutes from './src/routes/adminRoutes.js';
+import feedbackRoutes from './src/routes/feedbackRoutes.js';
+import { ensureDataFiles } from './src/utils/dataStore.js';
+
+dotenv.config();
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+await ensureDataFiles();
+const app = express();
+app.use(cors({ origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173' }));
+app.use(express.json({ limit: '1mb' }));
+app.get('/api/health', (_req, res) => res.json({ status: 'ok', app: 'RouteRescue API' }));
+app.use('/api/auth', authRoutes);
+app.use('/api/users', userRoutes);
+app.use('/api/journeys', journeyRoutes);
+app.use('/api/admin', adminRoutes);
+app.use('/api/feedback', feedbackRoutes);
+app.use((err, _req, res, _next) => {
+  console.error(err);
+  res.status(err.status || 500).json({ message: err.message || 'Internal server error' });
+});
+const port = process.env.PORT || 5000;
+app.listen(port, () => console.log(`RouteRescue API running at http://localhost:${port}`));

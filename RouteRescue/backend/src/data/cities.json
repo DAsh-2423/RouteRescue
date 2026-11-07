@@ -1,0 +1,110 @@
+[
+  {
+    "id": "C1",
+    "name": "Mumbai",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "C2",
+    "name": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "C3",
+    "name": "Ahmedabad",
+    "state": "Gujarat"
+  },
+  {
+    "id": "C4",
+    "name": "Surat",
+    "state": "Gujarat"
+  },
+  {
+    "id": "C5",
+    "name": "Vadodara",
+    "state": "Gujarat"
+  },
+  {
+    "id": "C6",
+    "name": "Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": "C7",
+    "name": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "C8",
+    "name": "Udaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "C9",
+    "name": "Indore",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "C10",
+    "name": "Bhopal",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "C11",
+    "name": "Nagpur",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "C12",
+    "name": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "id": "C13",
+    "name": "Bengaluru",
+    "state": "Karnataka"
+  },
+  {
+    "id": "C14",
+    "name": "Chennai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "C15",
+    "name": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "id": "C16",
+    "name": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "C17",
+    "name": "Prayagraj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "C18",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "C19",
+    "name": "Agra",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "C20",
+    "name": "Goa",
+    "state": "Goa"
+  },
+  {
+    "id": "50115a0a-8b90-4606-b708-1504aa6bbc9b",
+    "available": true,
+    "name": "Rajkot",
+    "state": "Gujarat",
+    "latitude": 22.308155,
+    "longitude": 70.800705
+  }
+]

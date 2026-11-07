@@ -1,0 +1,603 @@
+[
+  {
+    "id": "option-3",
+    "userId": "2d4da184-7025-4b10-90f3-eacaf510d852",
+    "createdAt": "2026-11-06T15:42:54.222Z",
+    "title": "Mumbai to Pune",
+    "name": "Balanced connection",
+    "source": "Mumbai",
+    "destination": "Pune",
+    "legs": [
+      {
+        "id": "T3-1",
+        "from": "Mumbai",
+        "to": "Goa",
+        "mode": "Train",
+        "service": "RR Express 416",
+        "departure": "12:00",
+        "arrival": "22:00",
+        "durationHours": 10,
+        "distanceKm": 650,
+        "farePerPerson": 850,
+        "available": true,
+        "days": [
+          "Daily"
+        ],
+        "transferAfter": "Goa · 240 min connection"
+      },
+      {
+        "id": "T27-1-R",
+        "from": "Goa",
+        "to": "Pune",
+        "mode": "Bus",
+        "service": "RouteLine 488",
+        "departure": "02:00",
+        "arrival": "12:00",
+        "durationHours": 10,
+        "distanceKm": 480,
+        "farePerPerson": 750,
+        "available": true,
+        "days": [
+          "Daily"
+        ],
+        "transferAfter": null
+      }
+    ],
+    "totalDurationHours": 20,
+    "elapsedDurationHours": 24,
+    "transfers": 1,
+    "intermediateCities": [
+      "Goa"
+    ],
+    "transportationCostPerPerson": 1600,
+    "accommodation": {
+      "required": false,
+      "city": null,
+      "nights": 0,
+      "hotel": null,
+      "alternatives": [],
+      "totalPerPerson": 0
+    },
+    "totalPerPerson": 1600,
+    "totalGroupCost": 1600,
+    "category": "cheapest",
+    "explanation": "Prioritizes lower fares. 1 transfer(s); all sample schedules are simulated.",
+    "simulated": true,
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 2,
+      "accommodation": "none"
+    }
+  },
+  {
+    "id": "option-1",
+    "userId": "115a28e6-6003-4b72-a4df-63cf0556ddf4",
+    "createdAt": "2026-11-06T16:13:22.759Z",
+    "title": "Mumbai to Pune",
+    "name": "Value route",
+    "source": "Mumbai",
+    "destination": "Pune",
+    "legs": [
+      {
+        "id": "T1-1",
+        "from": "Mumbai",
+        "to": "Pune",
+        "mode": "Train",
+        "service": "RR Express 410",
+        "departure": "06:00",
+        "arrival": "09:12",
+        "durationHours": 3.2,
+        "distanceKm": 208,
+        "farePerPerson": 420,
+        "available": true,
+        "days": [
+          "Daily"
+        ],
+        "transferAfter": null
+      }
+    ],
+    "totalDurationHours": 3.2,
+    "elapsedDurationHours": 3.2,
+    "transfers": 0,
+    "intermediateCities": [],
+    "transportationCostPerPerson": 420,
+    "accommodation": {
+      "required": false,
+      "city": null,
+      "nights": 0,
+      "hotel": null,
+      "alternatives": [],
+      "totalPerPerson": 0
+    },
+    "totalPerPerson": 420,
+    "totalGroupCost": 420,
+    "category": "cheapest",
+    "explanation": "Prioritizes lower fares. 0 transfer(s); all sample schedules are simulated.",
+    "simulated": true,
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    }
+  },
+  {
+    "id": "option-3",
+    "userId": "115a28e6-6003-4b72-a4df-63cf0556ddf4",
+    "createdAt": "2026-11-06T16:13:25.843Z",
+    "title": "Mumbai to Pune",
+    "name": "Balanced connection",
+    "source": "Mumbai",
+    "destination": "Pune",
+    "legs": [
+      {
+        "id": "T3-1",
+        "from": "Mumbai",
+        "to": "Goa",
+        "mode": "Train",
+        "service": "RR Express 416",
+        "departure": "12:00",
+        "arrival": "22:00",
+        "durationHours": 10,
+        "distanceKm": 650,
+        "farePerPerson": 850,
+        "available": true,
+        "days": [
+          "Daily"
+        ],
+        "transferAfter": "Goa · 240 min connection"
+      },
+      {
+        "id": "T27-1-R",
+        "from": "Goa",
+        "to": "Pune",
+        "mode": "Bus",
+        "service": "RouteLine 488",
+        "departure": "02:00",
+        "arrival": "12:00",
+        "durationHours": 10,
+        "distanceKm": 480,
+        "farePerPerson": 750,
+        "available": true,
+        "days": [
+          "Daily"
+        ],
+        "transferAfter": null
+      }
+    ],
+    "totalDurationHours": 20,
+    "elapsedDurationHours": 24,
+    "transfers": 1,
+    "intermediateCities": [
+      "Goa"
+    ],
+    "transportationCostPerPerson": 1600,
+    "accommodation": {
+      "required": false,
+      "city": null,
+      "nights": 0,
+      "hotel": null,
+      "alternatives": [],
+      "totalPerPerson": 0
+    },
+    "totalPerPerson": 1600,
+    "totalGroupCost": 1600,
+    "category": "cheapest",
+    "explanation": "Prioritizes lower fares. 1 transfer(s); all sample schedules are simulated.",
+    "simulated": true,
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    }
+  },
+  {
+    "id": "94c6096c-08b4-4d27-befe-e181c4d56bfb",
+    "userId": "ef6ef1d0-05fe-4093-b8ea-d6cba9d12e86",
+    "createdAt": "2026-11-06T18:44:40.467Z",
+    "title": "Mumbai to Pune",
+    "name": "Direct Bus",
+    "source": "Mumbai",
+    "destination": "Pune",
+    "legs": [
+      {
+        "id": "T31-1",
+        "from": "Mumbai",
+        "to": "Pune",
+        "mode": "Bus",
+        "service": "RouteLine 500",
+        "departure": "12:00",
+        "arrival": "16:00",
+        "durationHours": 4,
+        "distanceKm": 192,
+        "farePerPerson": 320,
+        "available": true,
+        "days": [
+          "Daily"
+        ],
+        "transferAfter": null
+      }
+    ],
+    "totalDurationHours": 4,
+    "elapsedDurationHours": 4,
+    "transfers": 0,
+    "intermediateCities": [],
+    "transportationCostPerPerson": 320,
+    "accommodation": {
+      "required": true,
+      "requested": true,
+      "city": "Pune",
+      "nights": 1,
+      "reason": "The journey is short, so the 1 night stay is at Pune instead of an unnecessary intermediate hotel.",
+      "hotel": {
+        "id": "H2-3",
+        "name": "Grand Stay Residency",
+        "city": "Pune",
+        "pricePerNight": 2300,
+        "rating": 4.7,
+        "type": "Premium",
+        "facilities": [
+          "Wi-Fi",
+          "24-hour reception",
+          "Air conditioning"
+        ],
+        "description": "Comfortable premium stay near Pune transport links.",
+        "available": true
+      },
+      "alternatives": [
+        {
+          "id": "H2-3",
+          "name": "Grand Stay Residency",
+          "city": "Pune",
+          "pricePerNight": 2300,
+          "rating": 4.7,
+          "type": "Premium",
+          "facilities": [
+            "Wi-Fi",
+            "24-hour reception",
+            "Air conditioning"
+          ],
+          "description": "Comfortable premium stay near Pune transport links.",
+          "available": true
+        },
+        {
+          "id": "H2-2",
+          "name": "Urban Stay Hotel",
+          "city": "Pune",
+          "pricePerNight": 1850,
+          "rating": 4.3,
+          "type": "Standard",
+          "facilities": [
+            "Wi-Fi",
+            "24-hour reception",
+            "Air conditioning"
+          ],
+          "description": "Comfortable well-equipped stay near Pune transport links.",
+          "available": true
+        },
+        {
+          "id": "H2-1",
+          "name": "City Comfort Inn",
+          "city": "Pune",
+          "pricePerNight": 1400,
+          "rating": 3.9,
+          "type": "Budget",
+          "facilities": [
+            "Wi-Fi",
+            "24-hour reception",
+            "Air conditioning"
+          ],
+          "description": "Comfortable budget stay near Pune transport links.",
+          "available": true
+        }
+      ],
+      "totalPerPerson": 2300,
+      "withinBudget": true
+    },
+    "totalPerPerson": 2620,
+    "totalGroupCost": 5240,
+    "withinBudget": true,
+    "category": "cheapest",
+    "highlights": [
+      "Cheapest"
+    ],
+    "explanation": "Cheapest option using Bus. No change of service is required. The journey is short, so the 1 night stay is at Pune instead of an unnecessary intermediate hotel.",
+    "simulated": true,
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune"
+    }
+  },
+  {
+    "id": "de9198b9-51df-4858-9957-0fd281e93d05",
+    "userId": "dc91c27d-562f-4eb7-867b-24d6a303bdac",
+    "createdAt": "2026-11-07T04:59:50.908Z",
+    "title": "Prayagraj to Ahmedabad",
+    "name": "Direct Flight",
+    "source": "Prayagraj",
+    "destination": "Ahmedabad",
+    "legs": [
+      {
+        "id": "map-Prayagraj-Ahmedabad-Flight",
+        "from": "Prayagraj",
+        "to": "Ahmedabad",
+        "mode": "Flight",
+        "service": "SkyHop 978",
+        "departure": "09:20",
+        "arrival": "10:44",
+        "durationHours": 1.4,
+        "distanceKm": 978,
+        "farePerPerson": 4300,
+        "available": true,
+        "simulated": true,
+        "transferAfter": null
+      }
+    ],
+    "totalDurationHours": 1.4,
+    "elapsedDurationHours": 1.4,
+    "transfers": 0,
+    "intermediateCities": [],
+    "transportationCostPerPerson": 4300,
+    "accommodation": {
+      "required": false,
+      "requested": false,
+      "city": null,
+      "nights": 0,
+      "reason": "No accommodation was added because the request does not ask for an overnight stay.",
+      "hotel": null,
+      "alternatives": [],
+      "totalPerPerson": 0,
+      "withinBudget": true
+    },
+    "totalPerPerson": 4300,
+    "totalGroupCost": 4300,
+    "withinBudget": true,
+    "category": "fastest",
+    "highlights": [
+      "Fastest",
+      "Best balanced"
+    ],
+    "explanation": "Fastest and Best balanced option using Flight. No intermediate halt. No accommodation was added because the request does not ask for an overnight stay.",
+    "simulated": true,
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Ahmedabad",
+      "date": "2027-01-07",
+      "travellers": 1,
+      "budget": "10000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    }
+  },
+  {
+    "id": "4cc54862-5ebb-471f-9b00-bf251311ed64",
+    "userId": "dc91c27d-562f-4eb7-867b-24d6a303bdac",
+    "createdAt": "2026-11-07T04:59:55.414Z",
+    "title": "Prayagraj to Ahmedabad",
+    "name": "Direct Train",
+    "source": "Prayagraj",
+    "destination": "Ahmedabad",
+    "legs": [
+      {
+        "id": "map-Prayagraj-Ahmedabad-Train",
+        "from": "Prayagraj",
+        "to": "Ahmedabad",
+        "mode": "Train",
+        "service": "RR Express 978",
+        "departure": "06:10",
+        "arrival": "00:58",
+        "durationHours": 18.8,
+        "distanceKm": 978,
+        "farePerPerson": 1320,
+        "available": true,
+        "simulated": true,
+        "transferAfter": null
+      }
+    ],
+    "totalDurationHours": 18.8,
+    "elapsedDurationHours": 18.8,
+    "transfers": 0,
+    "intermediateCities": [],
+    "transportationCostPerPerson": 1320,
+    "accommodation": {
+      "required": false,
+      "requested": false,
+      "city": null,
+      "nights": 0,
+      "reason": "No accommodation was added because the request does not ask for an overnight stay.",
+      "hotel": null,
+      "alternatives": [],
+      "totalPerPerson": 0,
+      "withinBudget": true
+    },
+    "totalPerPerson": 1320,
+    "totalGroupCost": 1320,
+    "withinBudget": true,
+    "category": "cheapest",
+    "highlights": [
+      "Cheapest"
+    ],
+    "explanation": "Cheapest option using Train. No intermediate halt. No accommodation was added because the request does not ask for an overnight stay.",
+    "simulated": true,
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Ahmedabad",
+      "date": "2027-01-07",
+      "travellers": 1,
+      "budget": "10000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    }
+  },
+  {
+    "id": "7146040e-0f64-4c04-b577-85773784c031",
+    "userId": "admin-1",
+    "createdAt": "2026-11-07T05:21:38.948Z",
+    "title": "Rajkot to Ahmedabad",
+    "name": "Direct Bus",
+    "source": "Rajkot",
+    "destination": "Ahmedabad",
+    "legs": [
+      {
+        "id": "6e439ae2-33f8-440e-8b0c-32c4b6043da8",
+        "available": true,
+        "from": "Rajkot",
+        "to": "Ahmedabad",
+        "mode": "Bus",
+        "service": "Patel Tours & Travels",
+        "departure": "07:40",
+        "arrival": "13:40",
+        "durationHours": 6,
+        "distanceKm": 198,
+        "farePerPerson": 440,
+        "days": [
+          "Daily"
+        ],
+        "transferAfter": null
+      }
+    ],
+    "totalDurationHours": 6,
+    "elapsedDurationHours": 6,
+    "transfers": 0,
+    "intermediateCities": [],
+    "transportationCostPerPerson": 440,
+    "accommodation": {
+      "required": false,
+      "requested": false,
+      "city": null,
+      "nights": 0,
+      "reason": "No accommodation was added because the request does not ask for an overnight stay.",
+      "hotel": null,
+      "alternatives": [],
+      "totalPerPerson": 0,
+      "withinBudget": true
+    },
+    "totalPerPerson": 440,
+    "totalGroupCost": 440,
+    "withinBudget": true,
+    "category": "balanced",
+    "highlights": [],
+    "explanation": "A practical option using Bus. No intermediate halt. No accommodation was added because the request does not ask for an overnight stay.",
+    "simulated": true,
+    "input": {
+      "source": "Rajkot",
+      "destination": "Ahmedabad",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    }
+  },
+  {
+    "id": "58cbc957-46f2-43d4-8d5a-b770706c1a97",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T06:26:14.372Z",
+    "title": "Prayagraj to Varanasi",
+    "name": "Direct Bus",
+    "source": "Prayagraj",
+    "destination": "Varanasi",
+    "legs": [
+      {
+        "id": "map-Prayagraj-Varanasi-Bus",
+        "from": "Prayagraj",
+        "to": "Varanasi",
+        "mode": "Bus",
+        "service": "RouteLine 114",
+        "departure": "07:40",
+        "arrival": "10:22",
+        "durationHours": 2.7,
+        "distanceKm": 114,
+        "farePerPerson": 180,
+        "available": true,
+        "simulated": true,
+        "transferAfter": null
+      }
+    ],
+    "totalDurationHours": 2.7,
+    "elapsedDurationHours": 2.7,
+    "transfers": 0,
+    "intermediateCities": [],
+    "transportationCostPerPerson": 180,
+    "accommodation": {
+      "required": false,
+      "requested": false,
+      "city": null,
+      "nights": 0,
+      "reason": "No accommodation was added because the request does not ask for an overnight stay.",
+      "hotel": null,
+      "alternatives": [],
+      "totalPerPerson": 0,
+      "withinBudget": true
+    },
+    "totalPerPerson": 180,
+    "totalGroupCost": 540,
+    "withinBudget": true,
+    "category": "cheapest",
+    "highlights": [
+      "Cheapest",
+      "Best balanced"
+    ],
+    "explanation": "Cheapest and Best balanced option using Bus. No intermediate halt. No accommodation was added because the request does not ask for an overnight stay.",
+    "simulated": true,
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Varanasi",
+      "date": "2026-11-10",
+      "travellers": "3",
+      "budget": "500",
+      "optimization": "cheapest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    }
+  }
+]

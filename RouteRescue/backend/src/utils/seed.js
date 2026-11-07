@@ -1,0 +1,13 @@
+import 'dotenv/config';
+import bcrypt from 'bcryptjs';
+import { writeData } from './dataStore.js';
+import { cities, transport, hotels } from './seedData.js';
+const email=process.env.ADMIN_EMAIL||'admin@routerescue.local';
+const password=process.env.ADMIN_PASSWORD||'Admin@123';
+const passwordHash=await bcrypt.hash(password,10);
+await writeData('users',[{id:'admin-1',name:'RouteRescue Admin',email,phone:'9999999999',passwordHash,role:'admin',preferences:{}}]);
+await writeData('cities',cities);
+await writeData('transport',transport);
+await writeData('hotels',hotels);
+for (const name of ['journeys','feedback','requests']) await writeData(name,[]);
+console.log(`Seeded. Admin: ${email} / ${password}`);

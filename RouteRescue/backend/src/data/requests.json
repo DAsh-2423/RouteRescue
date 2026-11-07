@@ -1,0 +1,2642 @@
+[
+  {
+    "id": "4223c52f-5407-46ba-9d76-4f84eaa586de",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T15:38:16.719Z",
+    "input": {
+      "source": "Surat",
+      "destination": "Ahmedabad",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "3000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "801ab942-2236-481e-96c0-0bff9ca739bd",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T15:38:54.291Z",
+    "input": {
+      "source": "Pune",
+      "destination": "Mumbai",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 2,
+      "accommodation": "none"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "f6297bd5-ac12-40a4-9995-fdf8c4583cf9",
+    "userId": "2d4da184-7025-4b10-90f3-eacaf510d852",
+    "createdAt": "2026-11-06T15:41:45.970Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Varanasi",
+      "date": "2026-11-20",
+      "travellers": 4,
+      "budget": "2000",
+      "optimization": "cheapest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "f71316ad-9c7f-49f3-8df3-a10c657903ea",
+    "userId": "2d4da184-7025-4b10-90f3-eacaf510d852",
+    "createdAt": "2026-11-06T15:42:47.162Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 2,
+      "accommodation": "none"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "9216ce03-4517-4c0b-8c3b-5c94d699f207",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T16:06:00.943Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Lucknow",
+      "date": "2026-11-21",
+      "travellers": 1,
+      "budget": "893",
+      "optimization": "fastest",
+      "modes": [
+        "Bus",
+        "Train"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "2230ce4e-99b6-4eb9-ac11-3fc38f7cc75f",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T16:09:37.175Z",
+    "input": {
+      "source": "Bengaluru",
+      "destination": "Pune",
+      "date": "2026-11-10",
+      "travellers": 1,
+      "budget": "4000",
+      "optimization": "cheapest",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "83c10dbb-d673-4e3b-b563-b471e9eace21",
+    "userId": "115a28e6-6003-4b72-a4df-63cf0556ddf4",
+    "createdAt": "2026-11-06T16:13:18.316Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "cfb80d9e-ffc8-41cc-b95d-297a49d5a911",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T16:34:04.136Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Udaipur",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 2,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "7ee79ef4-04e8-4d17-86a0-1d6c5e771daf",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T16:54:03.401Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "0e7dc586-4458-40e8-9934-a189d456acf2",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:14:12.753Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "d3ba9a5f-622f-4e24-8f3b-728ddf488676",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:14:30.249Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 3,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "54b2d485-946c-4082-b05a-5c983e75f1b2",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:14:41.225Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 3,
+      "budget": "300",
+      "optimization": "fastest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "20d61b73-9c88-4f22-bd1c-e4f33e5bb23f",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:15:05.483Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 5,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "22aa8fa2-d365-4307-82c5-39aa4874cfa1",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:15:17.674Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "10dbf906-6568-4fe5-804b-1a4810c91d24",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:15:21.443Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Flight",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "28cb80a2-265b-425a-84f8-edb471642aa6",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:15:31.445Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "fecda403-7709-4ed1-bc4b-bff60224b238",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:15:34.155Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Flight",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "5a9bc244-f68d-4121-8527-92bf39e59af8",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:15:47.684Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Flight",
+        "Bus",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "dbab7940-66d6-4256-a419-481cc853702a",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:15:53.027Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "547d5539-e546-44a8-8a95-9e1007607bdd",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:15:55.037Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "fd15527b-815b-4d4d-8068-e942494f80f1",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:15:58.490Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "356fceab-a624-4c01-9802-69eacd3ed987",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:16:01.780Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "bf84e2fb-9373-4b2f-806f-f43918b62119",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:16:06.443Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "544498d9-8756-48af-8064-7520c11d0f9c",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:16:10.749Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "a6f87fe0-7a2a-4a6c-b369-7b35de804233",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:16:13.517Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "3783f316-780a-407c-b3f1-e05b8e8f6550",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:16:18.509Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "ebc3fccb-5885-43c6-a844-08d7935040fa",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:16:54.735Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "fastest",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "e7a82c9f-11aa-4d99-a995-f7477c1c8d58",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:17:04.601Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 5,
+      "budget": "2000",
+      "optimization": "fastest",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "80f08654-fcad-4f9e-8d72-6d9424aaa0ba",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:17:12.240Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 5,
+      "budget": "2000",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "398b1e93-8ebe-454a-8162-6863bb9570c1",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:17:17.392Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 5,
+      "budget": "2000",
+      "optimization": "cheapest",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "b9648b49-c678-4bb3-aede-41155d4cb284",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:17:23.890Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-11-06",
+      "travellers": 5,
+      "budget": "10",
+      "optimization": "cheapest",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "9575d522-fd97-4d1f-a1f0-091ec20c9c15",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:32:29.542Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Kolkata",
+      "date": "2026-11-07",
+      "travellers": 5,
+      "budget": "1005",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "d7b35db7-63f6-4b6a-b854-97c18e10f06e",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:32:31.516Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Kolkata",
+      "date": "2026-11-07",
+      "travellers": 5,
+      "budget": "1005",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "9e80cd17-150c-4e8b-a116-baf06ade5e41",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:32:42.553Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Kolkata",
+      "date": "2026-11-07",
+      "travellers": 5,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "64b4ae75-d154-4d7b-a768-6df42034d539",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:32:44.397Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Kolkata",
+      "date": "2026-11-07",
+      "travellers": 5,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "bf19f30a-3d2b-46da-8505-68f68070b310",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:32:44.681Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Kolkata",
+      "date": "2026-11-07",
+      "travellers": 5,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "fbc30173-d968-47f6-bab8-f8063ddc9493",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:32:45.575Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Kolkata",
+      "date": "2026-11-07",
+      "travellers": 5,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "1c8d2d85-0220-4ee7-8b76-f0ae523d5ae4",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:32:45.887Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Kolkata",
+      "date": "2026-11-07",
+      "travellers": 5,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "ce3bb618-d0a7-453a-8095-f8075d0d8b86",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:33:02.179Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Kolkata",
+      "date": "2026-11-07",
+      "travellers": 5,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "4934e9b5-81a6-4a6f-9ad1-21fd8abe6bfc",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:33:31.311Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Mumbai",
+      "date": "2026-11-07",
+      "travellers": 5,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Flight",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "d0a639b6-0238-4a00-9628-b49d8c4343b3",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:34:19.529Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "2cfa53f5-c9cf-4880-9e7f-fd632711a12c",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:34:21.852Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "3a666eae-823e-4de1-9502-14e0a62cf48f",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:34:22.098Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "4b156cdd-c985-45f6-a230-2cd57c872177",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:34:22.247Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "1400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "2b4cce77-885e-4dfe-bcf9-72e88ef72e94",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:37:06.885Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "2400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "0ead1a80-0291-40e4-94de-7954f2bb1583",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:37:10.971Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "2400",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Train",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "e2db5a52-8d1f-4611-b5f9-633ea0e6d5ea",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:37:16.392Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "3000",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Train",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "dffd0f67-0cb3-4528-9cf6-95f0faa42ee0",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:37:22.000Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Delhi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Bus",
+        "Train",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "9c00b1ed-ef96-436f-9f7d-0d076537b0b6",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:49:54.551Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "flexible"
+    },
+    "resultsCount": 1
+  },
+  {
+    "id": "f33df04d-4a76-459c-a01b-27d5ff59a23e",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:50:17.380Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 1
+  },
+  {
+    "id": "95ab75b7-c6b8-4fba-bae3-9dc6b5c2d45a",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:50:24.963Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "a873636c-bcc8-4c90-813a-3193eacca294",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:50:27.945Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 1
+  },
+  {
+    "id": "0e59cf39-f93f-4245-a752-9706122b339c",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:09.039Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "5a8b873b-5b26-4a71-accb-9614cb6c0ba1",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:11.411Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "62cbb7ce-05dc-4b43-9ae3-34fe3ae31162",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:11.539Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "84fbfc0f-ace3-4371-bec5-9b25df0ac2c8",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:11.747Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "d3f5c466-103e-4fb6-a6fb-d826efbd4d26",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:12.604Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "db4333ed-edd8-476c-9795-31b2e79df8fc",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:12.747Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "63227d03-06ad-4d1e-a7b9-644762ccbf45",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:12.916Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "3b0494bb-1330-405f-bdd7-4c10d248dc82",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:13.074Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "35c16abe-2f4f-4d8c-95b6-f4837ac66022",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:15.894Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "353cb7da-7988-43db-8986-63d62c252f4c",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:18.553Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "4000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "6e2e504b-39b5-4b7b-89d1-8ec4961ac880",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:22.567Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "1f2e0776-7afc-4a36-9687-603be178d2db",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:23.856Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "827787ed-bbfd-4c4a-8a75-2feb8036d2df",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:23.938Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "5cb618b5-c3ad-46a9-8ea5-faf503c4a68c",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:24.096Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "ac65dd24-8c29-41bd-8cbc-bfe71c49215b",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:24.229Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "abc9c9b6-f6b2-4550-9121-774844aed4e7",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:25.058Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "2a8b0e09-41e5-4ef5-b16a-b9965cd5b4b9",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:28.375Z",
+    "input": {
+      "source": "Pune",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "9c165f2f-a169-4507-9a5f-c4d61b7fc5b8",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:32.726Z",
+    "input": {
+      "source": "Pune",
+      "destination": "Mumbai",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "0fd06ccf-4e2f-42a7-9af3-799e2748b41e",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:32.989Z",
+    "input": {
+      "source": "Pune",
+      "destination": "Mumbai",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "2c9a4347-330e-4437-9ce9-bcd51e09cfbb",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:33.114Z",
+    "input": {
+      "source": "Pune",
+      "destination": "Mumbai",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "c01c59cf-84c4-4e65-b27e-c4a7c02458f3",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:39.597Z",
+    "input": {
+      "source": "Pune",
+      "destination": "Jaipur",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "778fea27-5fd2-4524-9756-a1b11371d4bd",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:48.413Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "064f1f2b-105b-4057-85a2-e49d19d8abe3",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:57:54.099Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "402c0b04-0266-409b-96a0-cbb6431f80b7",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:00.761Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "fd36c581-6fdd-4f1e-85a0-b0e1bcd8e540",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:02.764Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "93fa1db6-b0ea-4896-a30e-25ce69c90344",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:03.801Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "ee6c6fae-6247-4e6f-9198-2373ceb2a60b",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:03.912Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "c577d646-d863-4b65-9e77-5ae069b9a0eb",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:04.086Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "0a9f14a9-5aa5-44a1-9029-7d7f0098b4b6",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:04.953Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "796683db-30af-466d-84c6-8fd9a9fe9b51",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:05.060Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "7fb88aa8-b0fa-48ce-9ea8-0a112a573ecd",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:05.227Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "9a925e37-1475-4860-8b66-499eb2c7f810",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:06.796Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "537437a7-317d-4fca-843b-4dca8be870c4",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:58:09.809Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "7000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "50162806-ebb5-4acc-a16d-d94c35151d3a",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:59:19.205Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "1000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "6c91cf13-26e1-43b3-bb8e-34c1fbfb8dda",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:59:21.723Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "2000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "44199c4b-dd33-47b8-a8e1-de8c08a4b452",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:59:24.408Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "500",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "9b1baa31-cede-43e2-8db9-da3475eafc64",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T17:59:25.575Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "500",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "cb950560-58b5-4c33-85d3-4d7042e2e20c",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T18:04:30.489Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Jaipur",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "500",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "bbdbf0de-78b4-4a66-abd1-2e107fc56cf2",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T18:04:34.058Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Jaipur",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "4d4a01fe-6c0f-46df-b9fe-d3b2481abbaf",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T18:04:45.817Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Jaipur",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "5dfa5d41-ec08-4d9f-a80d-14ce95ea58a0",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T18:05:04.934Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Jaipur",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "b78da828-df9b-45b4-b242-496d396d425e",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T18:05:24.841Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Hyderabad",
+      "date": "2026-11-16",
+      "travellers": 2,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "flexible"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "465a8c8a-cd67-46b4-b650-8cdd066d56b8",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-06T18:05:34.979Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Hyderabad",
+      "date": "2026-11-16",
+      "travellers": 1,
+      "budget": "70000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "flexible"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "2103092d-ad7b-4eea-bc03-2ec586edf114",
+    "userId": "09a058c3-72b7-48ba-afe5-40ea00ef6026",
+    "createdAt": "2026-11-06T18:42:26.828Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-12-15",
+      "travellers": 2,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "destination"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "14040039-f9ae-4dc2-83cd-09dc2456dcd3",
+    "userId": "ef6ef1d0-05fe-4093-b8ea-d6cba9d12e86",
+    "createdAt": "2026-11-06T18:44:40.447Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-12-15",
+      "travellers": 2,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "destination"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "7e91b004-ebcf-4aac-b5ff-725a2babb62a",
+    "userId": "ef6ef1d0-05fe-4093-b8ea-d6cba9d12e86",
+    "createdAt": "2026-11-06T18:44:40.511Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-12-15",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "cheapest",
+      "modes": [
+        "Train"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "02000c51-1fdd-43e2-8653-bd313341b734",
+    "userId": "ef6ef1d0-05fe-4093-b8ea-d6cba9d12e86",
+    "createdAt": "2026-11-06T18:44:40.535Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Pune",
+      "date": "2026-12-15",
+      "travellers": 1,
+      "budget": 9000,
+      "optimization": "fastest",
+      "modes": [
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "96422187-b638-425e-9c7d-07ae973449a7",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T04:51:20.933Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "none"
+    },
+    "resultsCount": 1
+  },
+  {
+    "id": "0dede8a1-79f3-4310-a0fe-72517dd32803",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T04:51:30.900Z",
+    "input": {
+      "source": "Ahmedabad",
+      "destination": "Bhopal",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 1
+  },
+  {
+    "id": "48a47888-37fb-4093-8e48-840019a26543",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T04:53:15.686Z",
+    "input": {
+      "source": "Delhi",
+      "destination": "Bengaluru",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "10000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "fa655eb9-e4e8-4a54-91d7-f1864b291a86",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T04:53:18.572Z",
+    "input": {
+      "source": "Delhi",
+      "destination": "Bengaluru",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "10000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "9fd29e98-e50d-4a61-8592-91348b9c2b6b",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T04:53:42.345Z",
+    "input": {
+      "source": "Delhi",
+      "destination": "Bengaluru",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "10000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 4
+  },
+  {
+    "id": "ef9bbb39-3737-4d7e-92d0-8f4bfc9d7ee8",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T04:54:55.199Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Bengaluru",
+      "date": "2026-11-07",
+      "travellers": 2,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "flexible"
+    },
+    "resultsCount": 0
+  },
+  {
+    "id": "0febd9a1-bacf-48bb-8652-d79aa209bd4b",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T04:54:58.800Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Bengaluru",
+      "date": "2026-11-07",
+      "travellers": 2,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "flexible"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "e398cb17-5a73-41c0-a8fa-67d6b1616e83",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T04:55:29.964Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Bengaluru",
+      "date": "2026-11-07",
+      "travellers": 2,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "eef6e766-54ab-4a22-8f9d-5ccb138138f3",
+    "userId": "dc91c27d-562f-4eb7-867b-24d6a303bdac",
+    "createdAt": "2026-11-07T04:58:41.072Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Ahmedabad",
+      "date": "2027-01-07",
+      "travellers": 1,
+      "budget": "10000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "32223e63-2fe8-48a2-a982-6b0453eacefb",
+    "userId": "dc91c27d-562f-4eb7-867b-24d6a303bdac",
+    "createdAt": "2026-11-07T04:59:46.657Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Ahmedabad",
+      "date": "2027-01-07",
+      "travellers": 1,
+      "budget": "10000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "d12c3914-5e2d-4234-b35f-947cf0452c0e",
+    "userId": "admin-1",
+    "createdAt": "2026-11-07T05:19:25.055Z",
+    "input": {
+      "source": "Rajkot",
+      "destination": "Bhopal",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "0f212a8f-22b9-415c-ba69-b1e2ac010a10",
+    "userId": "admin-1",
+    "createdAt": "2026-11-07T05:19:46.176Z",
+    "input": {
+      "source": "Rajkot",
+      "destination": "Bhopal",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "f040361f-7c46-4788-a070-84045098b266",
+    "userId": "admin-1",
+    "createdAt": "2026-11-07T05:19:55.880Z",
+    "input": {
+      "source": "Rajkot",
+      "destination": "Bhopal",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "9d4cdecf-708b-48fc-a7ef-a92196c6e438",
+    "userId": "admin-1",
+    "createdAt": "2026-11-07T05:20:07.622Z",
+    "input": {
+      "source": "Rajkot",
+      "destination": "Bhopal",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "e5ef0d2f-7c32-4b9e-b327-dd239ef9778f",
+    "userId": "admin-1",
+    "createdAt": "2026-11-07T05:20:22.149Z",
+    "input": {
+      "source": "Rajkot",
+      "destination": "Ahmedabad",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "f379e088-21bd-4c8c-842c-a8775693e57f",
+    "userId": "admin-1",
+    "createdAt": "2026-11-07T05:21:42.923Z",
+    "input": {
+      "source": "Rajkot",
+      "destination": "Ahmedabad",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "d7ce5e4b-851d-473e-8bfd-b31a35f51f5b",
+    "userId": "admin-1",
+    "createdAt": "2026-11-07T05:21:46.064Z",
+    "input": {
+      "source": "Rajkot",
+      "destination": "Ahmedabad",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": "1000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "caf7cf96-c983-437b-be02-c7d49177ecf7",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T06:00:27.173Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Indore",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "b0d65273-9d4e-4f12-b7a5-363053cd7e75",
+    "userId": "2d4da184-7025-4b10-90f3-eacaf510d852",
+    "createdAt": "2026-11-07T06:05:40.793Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Goa",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "b0807cc0-3cf8-483f-8d09-dd7cec3ecdff",
+    "userId": "2d4da184-7025-4b10-90f3-eacaf510d852",
+    "createdAt": "2026-11-07T06:06:24.451Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Goa",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "09912a88-025d-4056-a343-9cb116f57304",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T06:24:19.200Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Varanasi",
+      "date": "2026-11-10",
+      "travellers": 3,
+      "budget": "500",
+      "optimization": "cheapest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "74054138-0a6c-4bc2-ac0c-7dc410cfeddb",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T06:26:11.386Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Varanasi",
+      "date": "2026-11-10",
+      "travellers": 3,
+      "budget": "500",
+      "optimization": "cheapest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "9b25be65-d442-4811-93a3-2145487c4b04",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T06:26:45.674Z",
+    "input": {
+      "source": "Rajkot",
+      "destination": "Prayagraj",
+      "date": "2026-12-08",
+      "travellers": 6,
+      "budget": "2500",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "c28c07e3-b3dc-4ecb-8b5c-81f45038d8ee",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T06:30:06.368Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Varanasi",
+      "date": "2026-11-10",
+      "travellers": 3,
+      "budget": "500",
+      "optimization": "cheapest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "9c3f5d32-ed1d-4e83-982a-0bfcdd3babb4",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T06:30:36.278Z",
+    "input": {
+      "source": "Lucknow",
+      "destination": "Chennai",
+      "date": "2026-12-04",
+      "travellers": 5,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "4527a9f2-b323-4a53-b462-b643f7995c30",
+    "userId": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "createdAt": "2026-11-07T06:31:43.302Z",
+    "input": {
+      "source": "Lucknow",
+      "destination": "Chennai",
+      "date": "2026-12-04",
+      "travellers": 5,
+      "budget": "5000",
+      "optimization": "balanced",
+      "modes": [
+        "Train",
+        "Bus",
+        "Flight"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "a5ff04dc-330a-4694-a686-6681c568eb9d",
+    "userId": "admin-1",
+    "createdAt": "2026-11-07T06:38:02.144Z",
+    "input": {
+      "source": "Bengaluru",
+      "destination": "Chennai",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 1
+  },
+  {
+    "id": "6ad1596b-be88-4901-af36-b6739876dbff",
+    "userId": "348ddb02-5026-4627-97ac-30e309520840",
+    "createdAt": "2026-11-07T06:40:05.554Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Rajkot",
+      "date": "2026-11-08",
+      "travellers": 1,
+      "budget": "2000",
+      "optimization": "fastest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "f0c74078-a8bb-4d0f-83e6-bfbdf3737664",
+    "userId": "348ddb02-5026-4627-97ac-30e309520840",
+    "createdAt": "2026-11-07T06:40:57.994Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Rajkot",
+      "date": "2026-11-08",
+      "travellers": 1,
+      "budget": "2000",
+      "optimization": "fastest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 2,
+      "accommodation": "destination"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "86edc993-31c7-4357-b9e8-0fb140915cc4",
+    "userId": "348ddb02-5026-4627-97ac-30e309520840",
+    "createdAt": "2026-11-07T06:41:21.069Z",
+    "input": {
+      "source": "Prayagraj",
+      "destination": "Rajkot",
+      "date": "2026-11-08",
+      "travellers": 1,
+      "budget": "2000",
+      "optimization": "fastest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 2,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 3
+  }
+]

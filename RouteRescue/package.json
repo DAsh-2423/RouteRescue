@@ -1,0 +1,10 @@
+{
+  "name":"routerescue",
+  "private":true,
+  "scripts":{
+    "install:all":"npm --prefix backend install && npm --prefix frontend install",
+    "seed":"npm --prefix backend run seed",
+    "dev:backend":"npm --prefix backend run dev",
+    "dev:frontend":"npm --prefix frontend run dev"
+  }
+}

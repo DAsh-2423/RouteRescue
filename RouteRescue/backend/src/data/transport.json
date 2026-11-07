@@ -1,0 +1,2850 @@
+[
+  {
+    "id": "T1-1",
+    "from": "Mumbai",
+    "to": "Pune",
+    "mode": "Train",
+    "service": "RR Express 410",
+    "departure": "06:00",
+    "arrival": "09:12",
+    "durationHours": 3.2,
+    "distanceKm": 208,
+    "farePerPerson": 420,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T1-2",
+    "from": "Mumbai",
+    "to": "Pune",
+    "mode": "Train",
+    "service": "RR Express 411",
+    "departure": "11:00",
+    "arrival": "14:12",
+    "durationHours": 3.2,
+    "distanceKm": 208,
+    "farePerPerson": 510,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T1-1-R",
+    "from": "Pune",
+    "to": "Mumbai",
+    "mode": "Train",
+    "service": "RR Express 410",
+    "departure": "18:00",
+    "arrival": "21:00",
+    "durationHours": 3.2,
+    "distanceKm": 208,
+    "farePerPerson": 420,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T1-2-R",
+    "from": "Pune",
+    "to": "Mumbai",
+    "mode": "Train",
+    "service": "RR Express 411",
+    "departure": "23:00",
+    "arrival": "02:00",
+    "durationHours": 3.2,
+    "distanceKm": 208,
+    "farePerPerson": 510,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T2-1",
+    "from": "Mumbai",
+    "to": "Surat",
+    "mode": "Train",
+    "service": "RR Express 413",
+    "departure": "09:00",
+    "arrival": "12:30",
+    "durationHours": 3.5,
+    "distanceKm": 228,
+    "farePerPerson": 500,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T2-2",
+    "from": "Mumbai",
+    "to": "Surat",
+    "mode": "Train",
+    "service": "RR Express 414",
+    "departure": "14:00",
+    "arrival": "17:30",
+    "durationHours": 3.5,
+    "distanceKm": 228,
+    "farePerPerson": 590,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T2-1-R",
+    "from": "Surat",
+    "to": "Mumbai",
+    "mode": "Train",
+    "service": "RR Express 413",
+    "departure": "21:00",
+    "arrival": "00:00",
+    "durationHours": 3.5,
+    "distanceKm": 228,
+    "farePerPerson": 500,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T2-2-R",
+    "from": "Surat",
+    "to": "Mumbai",
+    "mode": "Train",
+    "service": "RR Express 414",
+    "departure": "02:00",
+    "arrival": "05:00",
+    "durationHours": 3.5,
+    "distanceKm": 228,
+    "farePerPerson": 590,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T3-1",
+    "from": "Mumbai",
+    "to": "Goa",
+    "mode": "Train",
+    "service": "RR Express 416",
+    "departure": "12:00",
+    "arrival": "22:00",
+    "durationHours": 10,
+    "distanceKm": 650,
+    "farePerPerson": 850,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T3-2",
+    "from": "Mumbai",
+    "to": "Goa",
+    "mode": "Train",
+    "service": "RR Express 417",
+    "departure": "17:00",
+    "arrival": "03:00",
+    "durationHours": 10,
+    "distanceKm": 650,
+    "farePerPerson": 940,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T3-1-R",
+    "from": "Goa",
+    "to": "Mumbai",
+    "mode": "Train",
+    "service": "RR Express 416",
+    "departure": "00:00",
+    "arrival": "10:00",
+    "durationHours": 10,
+    "distanceKm": 650,
+    "farePerPerson": 850,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T3-2-R",
+    "from": "Goa",
+    "to": "Mumbai",
+    "mode": "Train",
+    "service": "RR Express 417",
+    "departure": "05:00",
+    "arrival": "15:00",
+    "durationHours": 10,
+    "distanceKm": 650,
+    "farePerPerson": 940,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T4-1",
+    "from": "Pune",
+    "to": "Ahmedabad",
+    "mode": "Bus",
+    "service": "RouteLine 419",
+    "departure": "15:00",
+    "arrival": "00:00",
+    "durationHours": 9,
+    "distanceKm": 432,
+    "farePerPerson": 900,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T4-2",
+    "from": "Pune",
+    "to": "Ahmedabad",
+    "mode": "Bus",
+    "service": "RouteLine 420",
+    "departure": "06:00",
+    "arrival": "15:00",
+    "durationHours": 9,
+    "distanceKm": 432,
+    "farePerPerson": 990,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T4-1-R",
+    "from": "Ahmedabad",
+    "to": "Pune",
+    "mode": "Bus",
+    "service": "RouteLine 419",
+    "departure": "03:00",
+    "arrival": "12:00",
+    "durationHours": 9,
+    "distanceKm": 432,
+    "farePerPerson": 900,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T4-2-R",
+    "from": "Ahmedabad",
+    "to": "Pune",
+    "mode": "Bus",
+    "service": "RouteLine 420",
+    "departure": "18:00",
+    "arrival": "03:00",
+    "durationHours": 9,
+    "distanceKm": 432,
+    "farePerPerson": 990,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T5-1",
+    "from": "Pune",
+    "to": "Hyderabad",
+    "mode": "Flight",
+    "service": "SkyHop 422",
+    "departure": "18:00",
+    "arrival": "19:30",
+    "durationHours": 1.5,
+    "distanceKm": 900,
+    "farePerPerson": 2800,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T5-2",
+    "from": "Pune",
+    "to": "Hyderabad",
+    "mode": "Flight",
+    "service": "SkyHop 423",
+    "departure": "09:00",
+    "arrival": "10:30",
+    "durationHours": 1.5,
+    "distanceKm": 900,
+    "farePerPerson": 2890,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T5-1-R",
+    "from": "Hyderabad",
+    "to": "Pune",
+    "mode": "Flight",
+    "service": "SkyHop 422",
+    "departure": "06:00",
+    "arrival": "07:00",
+    "durationHours": 1.5,
+    "distanceKm": 900,
+    "farePerPerson": 2800,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T5-2-R",
+    "from": "Hyderabad",
+    "to": "Pune",
+    "mode": "Flight",
+    "service": "SkyHop 423",
+    "departure": "21:00",
+    "arrival": "22:00",
+    "durationHours": 1.5,
+    "distanceKm": 900,
+    "farePerPerson": 2890,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T6-1",
+    "from": "Surat",
+    "to": "Vadodara",
+    "mode": "Bus",
+    "service": "RouteLine 425",
+    "departure": "07:00",
+    "arrival": "09:06",
+    "durationHours": 2.1,
+    "distanceKm": 101,
+    "farePerPerson": 240,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T6-2",
+    "from": "Surat",
+    "to": "Vadodara",
+    "mode": "Bus",
+    "service": "RouteLine 426",
+    "departure": "12:00",
+    "arrival": "14:06",
+    "durationHours": 2.1,
+    "distanceKm": 101,
+    "farePerPerson": 330,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T6-1-R",
+    "from": "Vadodara",
+    "to": "Surat",
+    "mode": "Bus",
+    "service": "RouteLine 425",
+    "departure": "19:00",
+    "arrival": "21:00",
+    "durationHours": 2.1,
+    "distanceKm": 101,
+    "farePerPerson": 240,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T6-2-R",
+    "from": "Vadodara",
+    "to": "Surat",
+    "mode": "Bus",
+    "service": "RouteLine 426",
+    "departure": "00:00",
+    "arrival": "02:00",
+    "durationHours": 2.1,
+    "distanceKm": 101,
+    "farePerPerson": 330,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T7-1",
+    "from": "Surat",
+    "to": "Ahmedabad",
+    "mode": "Train",
+    "service": "RR Express 428",
+    "departure": "10:00",
+    "arrival": "13:00",
+    "durationHours": 3,
+    "distanceKm": 195,
+    "farePerPerson": 300,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T7-2",
+    "from": "Surat",
+    "to": "Ahmedabad",
+    "mode": "Train",
+    "service": "RR Express 429",
+    "departure": "15:00",
+    "arrival": "18:00",
+    "durationHours": 3,
+    "distanceKm": 195,
+    "farePerPerson": 390,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T7-1-R",
+    "from": "Ahmedabad",
+    "to": "Surat",
+    "mode": "Train",
+    "service": "RR Express 428",
+    "departure": "22:00",
+    "arrival": "01:00",
+    "durationHours": 3,
+    "distanceKm": 195,
+    "farePerPerson": 300,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T7-2-R",
+    "from": "Ahmedabad",
+    "to": "Surat",
+    "mode": "Train",
+    "service": "RR Express 429",
+    "departure": "03:00",
+    "arrival": "06:00",
+    "durationHours": 3,
+    "distanceKm": 195,
+    "farePerPerson": 390,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T8-1",
+    "from": "Vadodara",
+    "to": "Ahmedabad",
+    "mode": "Train",
+    "service": "RR Express 431",
+    "departure": "13:00",
+    "arrival": "14:30",
+    "durationHours": 1.5,
+    "distanceKm": 98,
+    "farePerPerson": 180,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T8-2",
+    "from": "Vadodara",
+    "to": "Ahmedabad",
+    "mode": "Train",
+    "service": "RR Express 432",
+    "departure": "18:00",
+    "arrival": "19:30",
+    "durationHours": 1.5,
+    "distanceKm": 98,
+    "farePerPerson": 270,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T8-1-R",
+    "from": "Ahmedabad",
+    "to": "Vadodara",
+    "mode": "Train",
+    "service": "RR Express 431",
+    "departure": "01:00",
+    "arrival": "02:00",
+    "durationHours": 1.5,
+    "distanceKm": 98,
+    "farePerPerson": 180,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T8-2-R",
+    "from": "Ahmedabad",
+    "to": "Vadodara",
+    "mode": "Train",
+    "service": "RR Express 432",
+    "departure": "06:00",
+    "arrival": "07:00",
+    "durationHours": 1.5,
+    "distanceKm": 98,
+    "farePerPerson": 270,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T9-1",
+    "from": "Ahmedabad",
+    "to": "Udaipur",
+    "mode": "Bus",
+    "service": "RouteLine 434",
+    "departure": "16:00",
+    "arrival": "21:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 550,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T9-2",
+    "from": "Ahmedabad",
+    "to": "Udaipur",
+    "mode": "Bus",
+    "service": "RouteLine 435",
+    "departure": "07:00",
+    "arrival": "12:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 640,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T9-1-R",
+    "from": "Udaipur",
+    "to": "Ahmedabad",
+    "mode": "Bus",
+    "service": "RouteLine 434",
+    "departure": "04:00",
+    "arrival": "09:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 550,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T9-2-R",
+    "from": "Udaipur",
+    "to": "Ahmedabad",
+    "mode": "Bus",
+    "service": "RouteLine 435",
+    "departure": "19:00",
+    "arrival": "00:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 640,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T10-1",
+    "from": "Ahmedabad",
+    "to": "Jaipur",
+    "mode": "Train",
+    "service": "RR Express 437",
+    "departure": "19:00",
+    "arrival": "04:00",
+    "durationHours": 9,
+    "distanceKm": 585,
+    "farePerPerson": 750,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T10-2",
+    "from": "Ahmedabad",
+    "to": "Jaipur",
+    "mode": "Train",
+    "service": "RR Express 438",
+    "departure": "10:00",
+    "arrival": "19:00",
+    "durationHours": 9,
+    "distanceKm": 585,
+    "farePerPerson": 840,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T10-1-R",
+    "from": "Jaipur",
+    "to": "Ahmedabad",
+    "mode": "Train",
+    "service": "RR Express 437",
+    "departure": "07:00",
+    "arrival": "16:00",
+    "durationHours": 9,
+    "distanceKm": 585,
+    "farePerPerson": 750,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T10-2-R",
+    "from": "Jaipur",
+    "to": "Ahmedabad",
+    "mode": "Train",
+    "service": "RR Express 438",
+    "departure": "22:00",
+    "arrival": "07:00",
+    "durationHours": 9,
+    "distanceKm": 585,
+    "farePerPerson": 840,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T11-1",
+    "from": "Jaipur",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 440",
+    "departure": "08:00",
+    "arrival": "12:30",
+    "durationHours": 4.5,
+    "distanceKm": 293,
+    "farePerPerson": 500,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T11-2",
+    "from": "Jaipur",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 441",
+    "departure": "13:00",
+    "arrival": "17:30",
+    "durationHours": 4.5,
+    "distanceKm": 293,
+    "farePerPerson": 590,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T11-1-R",
+    "from": "Delhi",
+    "to": "Jaipur",
+    "mode": "Train",
+    "service": "RR Express 440",
+    "departure": "20:00",
+    "arrival": "00:00",
+    "durationHours": 4.5,
+    "distanceKm": 293,
+    "farePerPerson": 500,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T11-2-R",
+    "from": "Delhi",
+    "to": "Jaipur",
+    "mode": "Train",
+    "service": "RR Express 441",
+    "departure": "01:00",
+    "arrival": "05:00",
+    "durationHours": 4.5,
+    "distanceKm": 293,
+    "farePerPerson": 590,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T12-1",
+    "from": "Udaipur",
+    "to": "Indore",
+    "mode": "Bus",
+    "service": "RouteLine 443",
+    "departure": "11:00",
+    "arrival": "18:00",
+    "durationHours": 7,
+    "distanceKm": 336,
+    "farePerPerson": 700,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T12-2",
+    "from": "Udaipur",
+    "to": "Indore",
+    "mode": "Bus",
+    "service": "RouteLine 444",
+    "departure": "16:00",
+    "arrival": "23:00",
+    "durationHours": 7,
+    "distanceKm": 336,
+    "farePerPerson": 790,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T12-1-R",
+    "from": "Indore",
+    "to": "Udaipur",
+    "mode": "Bus",
+    "service": "RouteLine 443",
+    "departure": "23:00",
+    "arrival": "06:00",
+    "durationHours": 7,
+    "distanceKm": 336,
+    "farePerPerson": 700,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T12-2-R",
+    "from": "Indore",
+    "to": "Udaipur",
+    "mode": "Bus",
+    "service": "RouteLine 444",
+    "departure": "04:00",
+    "arrival": "11:00",
+    "durationHours": 7,
+    "distanceKm": 336,
+    "farePerPerson": 790,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T13-1",
+    "from": "Indore",
+    "to": "Bhopal",
+    "mode": "Train",
+    "service": "RR Express 446",
+    "departure": "14:00",
+    "arrival": "17:30",
+    "durationHours": 3.5,
+    "distanceKm": 228,
+    "farePerPerson": 280,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T13-2",
+    "from": "Indore",
+    "to": "Bhopal",
+    "mode": "Train",
+    "service": "RR Express 447",
+    "departure": "19:00",
+    "arrival": "22:30",
+    "durationHours": 3.5,
+    "distanceKm": 228,
+    "farePerPerson": 370,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T13-1-R",
+    "from": "Bhopal",
+    "to": "Indore",
+    "mode": "Train",
+    "service": "RR Express 446",
+    "departure": "02:00",
+    "arrival": "05:00",
+    "durationHours": 3.5,
+    "distanceKm": 228,
+    "farePerPerson": 280,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T13-2-R",
+    "from": "Bhopal",
+    "to": "Indore",
+    "mode": "Train",
+    "service": "RR Express 447",
+    "departure": "07:00",
+    "arrival": "10:00",
+    "durationHours": 3.5,
+    "distanceKm": 228,
+    "farePerPerson": 370,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T14-1",
+    "from": "Bhopal",
+    "to": "Nagpur",
+    "mode": "Train",
+    "service": "RR Express 449",
+    "departure": "17:00",
+    "arrival": "22:00",
+    "durationHours": 5,
+    "distanceKm": 325,
+    "farePerPerson": 420,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T14-2",
+    "from": "Bhopal",
+    "to": "Nagpur",
+    "mode": "Train",
+    "service": "RR Express 450",
+    "departure": "08:00",
+    "arrival": "13:00",
+    "durationHours": 5,
+    "distanceKm": 325,
+    "farePerPerson": 510,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T14-1-R",
+    "from": "Nagpur",
+    "to": "Bhopal",
+    "mode": "Train",
+    "service": "RR Express 449",
+    "departure": "05:00",
+    "arrival": "10:00",
+    "durationHours": 5,
+    "distanceKm": 325,
+    "farePerPerson": 420,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T14-2-R",
+    "from": "Nagpur",
+    "to": "Bhopal",
+    "mode": "Train",
+    "service": "RR Express 450",
+    "departure": "20:00",
+    "arrival": "01:00",
+    "durationHours": 5,
+    "distanceKm": 325,
+    "farePerPerson": 510,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T15-1",
+    "from": "Nagpur",
+    "to": "Hyderabad",
+    "mode": "Train",
+    "service": "RR Express 452",
+    "departure": "06:00",
+    "arrival": "14:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 650,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T15-2",
+    "from": "Nagpur",
+    "to": "Hyderabad",
+    "mode": "Train",
+    "service": "RR Express 453",
+    "departure": "11:00",
+    "arrival": "19:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 740,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T15-1-R",
+    "from": "Hyderabad",
+    "to": "Nagpur",
+    "mode": "Train",
+    "service": "RR Express 452",
+    "departure": "18:00",
+    "arrival": "02:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 650,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T15-2-R",
+    "from": "Hyderabad",
+    "to": "Nagpur",
+    "mode": "Train",
+    "service": "RR Express 453",
+    "departure": "23:00",
+    "arrival": "07:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 740,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T16-1",
+    "from": "Hyderabad",
+    "to": "Bengaluru",
+    "mode": "Bus",
+    "service": "RouteLine 455",
+    "departure": "09:00",
+    "arrival": "18:00",
+    "durationHours": 9,
+    "distanceKm": 432,
+    "farePerPerson": 800,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T16-2",
+    "from": "Hyderabad",
+    "to": "Bengaluru",
+    "mode": "Bus",
+    "service": "RouteLine 456",
+    "departure": "14:00",
+    "arrival": "23:00",
+    "durationHours": 9,
+    "distanceKm": 432,
+    "farePerPerson": 890,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T16-1-R",
+    "from": "Bengaluru",
+    "to": "Hyderabad",
+    "mode": "Bus",
+    "service": "RouteLine 455",
+    "departure": "21:00",
+    "arrival": "06:00",
+    "durationHours": 9,
+    "distanceKm": 432,
+    "farePerPerson": 800,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T16-2-R",
+    "from": "Bengaluru",
+    "to": "Hyderabad",
+    "mode": "Bus",
+    "service": "RouteLine 456",
+    "departure": "02:00",
+    "arrival": "11:00",
+    "durationHours": 9,
+    "distanceKm": 432,
+    "farePerPerson": 890,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T17-1",
+    "from": "Bengaluru",
+    "to": "Chennai",
+    "mode": "Train",
+    "service": "RR Express 458",
+    "departure": "12:00",
+    "arrival": "18:00",
+    "durationHours": 6,
+    "distanceKm": 390,
+    "farePerPerson": 450,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T17-2",
+    "from": "Bengaluru",
+    "to": "Chennai",
+    "mode": "Train",
+    "service": "RR Express 459",
+    "departure": "17:00",
+    "arrival": "23:00",
+    "durationHours": 6,
+    "distanceKm": 390,
+    "farePerPerson": 540,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T17-1-R",
+    "from": "Chennai",
+    "to": "Bengaluru",
+    "mode": "Train",
+    "service": "RR Express 458",
+    "departure": "00:00",
+    "arrival": "06:00",
+    "durationHours": 6,
+    "distanceKm": 390,
+    "farePerPerson": 450,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T17-2-R",
+    "from": "Chennai",
+    "to": "Bengaluru",
+    "mode": "Train",
+    "service": "RR Express 459",
+    "departure": "05:00",
+    "arrival": "11:00",
+    "durationHours": 6,
+    "distanceKm": 390,
+    "farePerPerson": 540,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T18-1",
+    "from": "Chennai",
+    "to": "Kolkata",
+    "mode": "Flight",
+    "service": "SkyHop 461",
+    "departure": "15:00",
+    "arrival": "17:30",
+    "durationHours": 2.5,
+    "distanceKm": 1500,
+    "farePerPerson": 3600,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T18-2",
+    "from": "Chennai",
+    "to": "Kolkata",
+    "mode": "Flight",
+    "service": "SkyHop 462",
+    "departure": "06:00",
+    "arrival": "08:30",
+    "durationHours": 2.5,
+    "distanceKm": 1500,
+    "farePerPerson": 3690,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T18-1-R",
+    "from": "Kolkata",
+    "to": "Chennai",
+    "mode": "Flight",
+    "service": "SkyHop 461",
+    "departure": "03:00",
+    "arrival": "05:00",
+    "durationHours": 2.5,
+    "distanceKm": 1500,
+    "farePerPerson": 3600,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T18-2-R",
+    "from": "Kolkata",
+    "to": "Chennai",
+    "mode": "Flight",
+    "service": "SkyHop 462",
+    "departure": "18:00",
+    "arrival": "20:00",
+    "durationHours": 2.5,
+    "distanceKm": 1500,
+    "farePerPerson": 3690,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T19-1",
+    "from": "Delhi",
+    "to": "Agra",
+    "mode": "Train",
+    "service": "RR Express 464",
+    "departure": "18:00",
+    "arrival": "20:00",
+    "durationHours": 2,
+    "distanceKm": 130,
+    "farePerPerson": 250,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T19-2",
+    "from": "Delhi",
+    "to": "Agra",
+    "mode": "Train",
+    "service": "RR Express 465",
+    "departure": "09:00",
+    "arrival": "11:00",
+    "durationHours": 2,
+    "distanceKm": 130,
+    "farePerPerson": 340,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T19-1-R",
+    "from": "Agra",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 464",
+    "departure": "06:00",
+    "arrival": "08:00",
+    "durationHours": 2,
+    "distanceKm": 130,
+    "farePerPerson": 250,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T19-2-R",
+    "from": "Agra",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 465",
+    "departure": "21:00",
+    "arrival": "23:00",
+    "durationHours": 2,
+    "distanceKm": 130,
+    "farePerPerson": 340,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T20-1",
+    "from": "Agra",
+    "to": "Lucknow",
+    "mode": "Bus",
+    "service": "RouteLine 467",
+    "departure": "07:00",
+    "arrival": "12:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 450,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T20-2",
+    "from": "Agra",
+    "to": "Lucknow",
+    "mode": "Bus",
+    "service": "RouteLine 468",
+    "departure": "12:00",
+    "arrival": "17:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 540,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T20-1-R",
+    "from": "Lucknow",
+    "to": "Agra",
+    "mode": "Bus",
+    "service": "RouteLine 467",
+    "departure": "19:00",
+    "arrival": "00:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 450,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T20-2-R",
+    "from": "Lucknow",
+    "to": "Agra",
+    "mode": "Bus",
+    "service": "RouteLine 468",
+    "departure": "00:00",
+    "arrival": "05:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 540,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T21-1",
+    "from": "Lucknow",
+    "to": "Prayagraj",
+    "mode": "Train",
+    "service": "RR Express 470",
+    "departure": "10:00",
+    "arrival": "13:00",
+    "durationHours": 3,
+    "distanceKm": 195,
+    "farePerPerson": 220,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T21-2",
+    "from": "Lucknow",
+    "to": "Prayagraj",
+    "mode": "Train",
+    "service": "RR Express 471",
+    "departure": "15:00",
+    "arrival": "18:00",
+    "durationHours": 3,
+    "distanceKm": 195,
+    "farePerPerson": 310,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T21-1-R",
+    "from": "Prayagraj",
+    "to": "Lucknow",
+    "mode": "Train",
+    "service": "RR Express 470",
+    "departure": "22:00",
+    "arrival": "01:00",
+    "durationHours": 3,
+    "distanceKm": 195,
+    "farePerPerson": 220,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T21-2-R",
+    "from": "Prayagraj",
+    "to": "Lucknow",
+    "mode": "Train",
+    "service": "RR Express 471",
+    "departure": "03:00",
+    "arrival": "06:00",
+    "durationHours": 3,
+    "distanceKm": 195,
+    "farePerPerson": 310,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T22-1",
+    "from": "Prayagraj",
+    "to": "Varanasi",
+    "mode": "Train",
+    "service": "RR Express 473",
+    "departure": "13:00",
+    "arrival": "15:30",
+    "durationHours": 2.5,
+    "distanceKm": 163,
+    "farePerPerson": 200,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T22-2",
+    "from": "Prayagraj",
+    "to": "Varanasi",
+    "mode": "Train",
+    "service": "RR Express 474",
+    "departure": "18:00",
+    "arrival": "20:30",
+    "durationHours": 2.5,
+    "distanceKm": 163,
+    "farePerPerson": 290,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T22-1-R",
+    "from": "Varanasi",
+    "to": "Prayagraj",
+    "mode": "Train",
+    "service": "RR Express 473",
+    "departure": "01:00",
+    "arrival": "03:00",
+    "durationHours": 2.5,
+    "distanceKm": 163,
+    "farePerPerson": 200,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T22-2-R",
+    "from": "Varanasi",
+    "to": "Prayagraj",
+    "mode": "Train",
+    "service": "RR Express 474",
+    "departure": "06:00",
+    "arrival": "08:00",
+    "durationHours": 2.5,
+    "distanceKm": 163,
+    "farePerPerson": 290,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T23-1",
+    "from": "Varanasi",
+    "to": "Kolkata",
+    "mode": "Train",
+    "service": "RR Express 476",
+    "departure": "16:00",
+    "arrival": "02:00",
+    "durationHours": 10,
+    "distanceKm": 650,
+    "farePerPerson": 750,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T23-2",
+    "from": "Varanasi",
+    "to": "Kolkata",
+    "mode": "Train",
+    "service": "RR Express 477",
+    "departure": "07:00",
+    "arrival": "17:00",
+    "durationHours": 10,
+    "distanceKm": 650,
+    "farePerPerson": 840,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T23-1-R",
+    "from": "Kolkata",
+    "to": "Varanasi",
+    "mode": "Train",
+    "service": "RR Express 476",
+    "departure": "04:00",
+    "arrival": "14:00",
+    "durationHours": 10,
+    "distanceKm": 650,
+    "farePerPerson": 750,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T23-2-R",
+    "from": "Kolkata",
+    "to": "Varanasi",
+    "mode": "Train",
+    "service": "RR Express 477",
+    "departure": "19:00",
+    "arrival": "05:00",
+    "durationHours": 10,
+    "distanceKm": 650,
+    "farePerPerson": 840,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T24-1",
+    "from": "Delhi",
+    "to": "Lucknow",
+    "mode": "Flight",
+    "service": "SkyHop 479",
+    "departure": "19:00",
+    "arrival": "20:18",
+    "durationHours": 1.3,
+    "distanceKm": 780,
+    "farePerPerson": 2600,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T24-2",
+    "from": "Delhi",
+    "to": "Lucknow",
+    "mode": "Flight",
+    "service": "SkyHop 480",
+    "departure": "10:00",
+    "arrival": "11:18",
+    "durationHours": 1.3,
+    "distanceKm": 780,
+    "farePerPerson": 2690,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T24-1-R",
+    "from": "Lucknow",
+    "to": "Delhi",
+    "mode": "Flight",
+    "service": "SkyHop 479",
+    "departure": "07:00",
+    "arrival": "08:00",
+    "durationHours": 1.3,
+    "distanceKm": 780,
+    "farePerPerson": 2600,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T24-2-R",
+    "from": "Lucknow",
+    "to": "Delhi",
+    "mode": "Flight",
+    "service": "SkyHop 480",
+    "departure": "22:00",
+    "arrival": "23:00",
+    "durationHours": 1.3,
+    "distanceKm": 780,
+    "farePerPerson": 2690,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T25-1",
+    "from": "Delhi",
+    "to": "Prayagraj",
+    "mode": "Train",
+    "service": "RR Express 482",
+    "departure": "08:00",
+    "arrival": "16:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 650,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T25-2",
+    "from": "Delhi",
+    "to": "Prayagraj",
+    "mode": "Train",
+    "service": "RR Express 483",
+    "departure": "13:00",
+    "arrival": "21:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 740,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T25-1-R",
+    "from": "Prayagraj",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 482",
+    "departure": "20:00",
+    "arrival": "04:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 650,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T25-2-R",
+    "from": "Prayagraj",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 483",
+    "departure": "01:00",
+    "arrival": "09:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 740,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T26-1",
+    "from": "Mumbai",
+    "to": "Ahmedabad",
+    "mode": "Flight",
+    "service": "SkyHop 485",
+    "departure": "11:00",
+    "arrival": "12:12",
+    "durationHours": 1.2,
+    "distanceKm": 720,
+    "farePerPerson": 2200,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T26-2",
+    "from": "Mumbai",
+    "to": "Ahmedabad",
+    "mode": "Flight",
+    "service": "SkyHop 486",
+    "departure": "16:00",
+    "arrival": "17:12",
+    "durationHours": 1.2,
+    "distanceKm": 720,
+    "farePerPerson": 2290,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T26-1-R",
+    "from": "Ahmedabad",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 485",
+    "departure": "23:00",
+    "arrival": "00:00",
+    "durationHours": 1.2,
+    "distanceKm": 720,
+    "farePerPerson": 2200,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T26-2-R",
+    "from": "Ahmedabad",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 486",
+    "departure": "04:00",
+    "arrival": "05:00",
+    "durationHours": 1.2,
+    "distanceKm": 720,
+    "farePerPerson": 2290,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T27-1",
+    "from": "Pune",
+    "to": "Goa",
+    "mode": "Bus",
+    "service": "RouteLine 488",
+    "departure": "14:00",
+    "arrival": "00:00",
+    "durationHours": 10,
+    "distanceKm": 480,
+    "farePerPerson": 750,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T27-2",
+    "from": "Pune",
+    "to": "Goa",
+    "mode": "Bus",
+    "service": "RouteLine 489",
+    "departure": "19:00",
+    "arrival": "05:00",
+    "durationHours": 10,
+    "distanceKm": 480,
+    "farePerPerson": 840,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T27-1-R",
+    "from": "Goa",
+    "to": "Pune",
+    "mode": "Bus",
+    "service": "RouteLine 488",
+    "departure": "02:00",
+    "arrival": "12:00",
+    "durationHours": 10,
+    "distanceKm": 480,
+    "farePerPerson": 750,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T27-2-R",
+    "from": "Goa",
+    "to": "Pune",
+    "mode": "Bus",
+    "service": "RouteLine 489",
+    "departure": "07:00",
+    "arrival": "17:00",
+    "durationHours": 10,
+    "distanceKm": 480,
+    "farePerPerson": 840,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T28-1",
+    "from": "Goa",
+    "to": "Bengaluru",
+    "mode": "Flight",
+    "service": "SkyHop 491",
+    "departure": "17:00",
+    "arrival": "18:24",
+    "durationHours": 1.4,
+    "distanceKm": 840,
+    "farePerPerson": 2400,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T28-2",
+    "from": "Goa",
+    "to": "Bengaluru",
+    "mode": "Flight",
+    "service": "SkyHop 492",
+    "departure": "08:00",
+    "arrival": "09:24",
+    "durationHours": 1.4,
+    "distanceKm": 840,
+    "farePerPerson": 2490,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T28-1-R",
+    "from": "Bengaluru",
+    "to": "Goa",
+    "mode": "Flight",
+    "service": "SkyHop 491",
+    "departure": "05:00",
+    "arrival": "06:00",
+    "durationHours": 1.4,
+    "distanceKm": 840,
+    "farePerPerson": 2400,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T28-2-R",
+    "from": "Bengaluru",
+    "to": "Goa",
+    "mode": "Flight",
+    "service": "SkyHop 492",
+    "departure": "20:00",
+    "arrival": "21:00",
+    "durationHours": 1.4,
+    "distanceKm": 840,
+    "farePerPerson": 2490,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T29-1",
+    "from": "Bhopal",
+    "to": "Jaipur",
+    "mode": "Bus",
+    "service": "RouteLine 494",
+    "departure": "06:00",
+    "arrival": "14:00",
+    "durationHours": 8,
+    "distanceKm": 384,
+    "farePerPerson": 750,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T29-2",
+    "from": "Bhopal",
+    "to": "Jaipur",
+    "mode": "Bus",
+    "service": "RouteLine 495",
+    "departure": "11:00",
+    "arrival": "19:00",
+    "durationHours": 8,
+    "distanceKm": 384,
+    "farePerPerson": 840,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T29-1-R",
+    "from": "Jaipur",
+    "to": "Bhopal",
+    "mode": "Bus",
+    "service": "RouteLine 494",
+    "departure": "18:00",
+    "arrival": "02:00",
+    "durationHours": 8,
+    "distanceKm": 384,
+    "farePerPerson": 750,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T29-2-R",
+    "from": "Jaipur",
+    "to": "Bhopal",
+    "mode": "Bus",
+    "service": "RouteLine 495",
+    "departure": "23:00",
+    "arrival": "07:00",
+    "durationHours": 8,
+    "distanceKm": 384,
+    "farePerPerson": 840,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T30-1",
+    "from": "Nagpur",
+    "to": "Bhopal",
+    "mode": "Bus",
+    "service": "RouteLine 497",
+    "departure": "09:00",
+    "arrival": "14:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 450,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T30-2",
+    "from": "Nagpur",
+    "to": "Bhopal",
+    "mode": "Bus",
+    "service": "RouteLine 498",
+    "departure": "14:00",
+    "arrival": "19:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 540,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T30-1-R",
+    "from": "Bhopal",
+    "to": "Nagpur",
+    "mode": "Bus",
+    "service": "RouteLine 497",
+    "departure": "21:00",
+    "arrival": "02:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 450,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T30-2-R",
+    "from": "Bhopal",
+    "to": "Nagpur",
+    "mode": "Bus",
+    "service": "RouteLine 498",
+    "departure": "02:00",
+    "arrival": "07:00",
+    "durationHours": 5,
+    "distanceKm": 240,
+    "farePerPerson": 540,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T31-1",
+    "from": "Mumbai",
+    "to": "Pune",
+    "mode": "Bus",
+    "service": "RouteLine 500",
+    "departure": "12:00",
+    "arrival": "16:00",
+    "durationHours": 4,
+    "distanceKm": 192,
+    "farePerPerson": 320,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T31-2",
+    "from": "Mumbai",
+    "to": "Pune",
+    "mode": "Bus",
+    "service": "RouteLine 501",
+    "departure": "17:00",
+    "arrival": "21:00",
+    "durationHours": 4,
+    "distanceKm": 192,
+    "farePerPerson": 410,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T31-1-R",
+    "from": "Pune",
+    "to": "Mumbai",
+    "mode": "Bus",
+    "service": "RouteLine 500",
+    "departure": "00:00",
+    "arrival": "04:00",
+    "durationHours": 4,
+    "distanceKm": 192,
+    "farePerPerson": 320,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T31-2-R",
+    "from": "Pune",
+    "to": "Mumbai",
+    "mode": "Bus",
+    "service": "RouteLine 501",
+    "departure": "05:00",
+    "arrival": "09:00",
+    "durationHours": 4,
+    "distanceKm": 192,
+    "farePerPerson": 410,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T32-1",
+    "from": "Mumbai",
+    "to": "Pune",
+    "mode": "Flight",
+    "service": "SkyHop 503",
+    "departure": "15:00",
+    "arrival": "16:06",
+    "durationHours": 1.1,
+    "distanceKm": 660,
+    "farePerPerson": 2800,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T32-2",
+    "from": "Mumbai",
+    "to": "Pune",
+    "mode": "Flight",
+    "service": "SkyHop 504",
+    "departure": "06:00",
+    "arrival": "07:06",
+    "durationHours": 1.1,
+    "distanceKm": 660,
+    "farePerPerson": 2890,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T32-1-R",
+    "from": "Pune",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 503",
+    "departure": "03:00",
+    "arrival": "04:00",
+    "durationHours": 1.1,
+    "distanceKm": 660,
+    "farePerPerson": 2800,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T32-2-R",
+    "from": "Pune",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 504",
+    "departure": "18:00",
+    "arrival": "19:00",
+    "durationHours": 1.1,
+    "distanceKm": 660,
+    "farePerPerson": 2890,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T33-1",
+    "from": "Mumbai",
+    "to": "Delhi",
+    "mode": "Flight",
+    "service": "SkyHop 506",
+    "departure": "18:00",
+    "arrival": "20:12",
+    "durationHours": 2.2,
+    "distanceKm": 1320,
+    "farePerPerson": 4500,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T33-2",
+    "from": "Mumbai",
+    "to": "Delhi",
+    "mode": "Flight",
+    "service": "SkyHop 507",
+    "departure": "09:00",
+    "arrival": "11:12",
+    "durationHours": 2.2,
+    "distanceKm": 1320,
+    "farePerPerson": 4590,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T33-1-R",
+    "from": "Delhi",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 506",
+    "departure": "06:00",
+    "arrival": "08:00",
+    "durationHours": 2.2,
+    "distanceKm": 1320,
+    "farePerPerson": 4500,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T33-2-R",
+    "from": "Delhi",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 507",
+    "departure": "21:00",
+    "arrival": "23:00",
+    "durationHours": 2.2,
+    "distanceKm": 1320,
+    "farePerPerson": 4590,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T34-1",
+    "from": "Mumbai",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 509",
+    "departure": "07:00",
+    "arrival": "23:00",
+    "durationHours": 16,
+    "distanceKm": 1040,
+    "farePerPerson": 1450,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T34-2",
+    "from": "Mumbai",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 510",
+    "departure": "12:00",
+    "arrival": "04:00",
+    "durationHours": 16,
+    "distanceKm": 1040,
+    "farePerPerson": 1540,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T34-1-R",
+    "from": "Delhi",
+    "to": "Mumbai",
+    "mode": "Train",
+    "service": "RR Express 509",
+    "departure": "19:00",
+    "arrival": "11:00",
+    "durationHours": 16,
+    "distanceKm": 1040,
+    "farePerPerson": 1450,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T34-2-R",
+    "from": "Delhi",
+    "to": "Mumbai",
+    "mode": "Train",
+    "service": "RR Express 510",
+    "departure": "00:00",
+    "arrival": "16:00",
+    "durationHours": 16,
+    "distanceKm": 1040,
+    "farePerPerson": 1540,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T35-1",
+    "from": "Delhi",
+    "to": "Kolkata",
+    "mode": "Flight",
+    "service": "SkyHop 512",
+    "departure": "10:00",
+    "arrival": "12:18",
+    "durationHours": 2.3,
+    "distanceKm": 1380,
+    "farePerPerson": 5200,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T35-2",
+    "from": "Delhi",
+    "to": "Kolkata",
+    "mode": "Flight",
+    "service": "SkyHop 513",
+    "departure": "15:00",
+    "arrival": "17:18",
+    "durationHours": 2.3,
+    "distanceKm": 1380,
+    "farePerPerson": 5290,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T35-1-R",
+    "from": "Kolkata",
+    "to": "Delhi",
+    "mode": "Flight",
+    "service": "SkyHop 512",
+    "departure": "22:00",
+    "arrival": "00:00",
+    "durationHours": 2.3,
+    "distanceKm": 1380,
+    "farePerPerson": 5200,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T35-2-R",
+    "from": "Kolkata",
+    "to": "Delhi",
+    "mode": "Flight",
+    "service": "SkyHop 513",
+    "departure": "03:00",
+    "arrival": "05:00",
+    "durationHours": 2.3,
+    "distanceKm": 1380,
+    "farePerPerson": 5290,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T36-1",
+    "from": "Delhi",
+    "to": "Varanasi",
+    "mode": "Flight",
+    "service": "SkyHop 515",
+    "departure": "13:00",
+    "arrival": "14:24",
+    "durationHours": 1.4,
+    "distanceKm": 840,
+    "farePerPerson": 3200,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T36-2",
+    "from": "Delhi",
+    "to": "Varanasi",
+    "mode": "Flight",
+    "service": "SkyHop 516",
+    "departure": "18:00",
+    "arrival": "19:24",
+    "durationHours": 1.4,
+    "distanceKm": 840,
+    "farePerPerson": 3290,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T36-1-R",
+    "from": "Varanasi",
+    "to": "Delhi",
+    "mode": "Flight",
+    "service": "SkyHop 515",
+    "departure": "01:00",
+    "arrival": "02:00",
+    "durationHours": 1.4,
+    "distanceKm": 840,
+    "farePerPerson": 3200,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T36-2-R",
+    "from": "Varanasi",
+    "to": "Delhi",
+    "mode": "Flight",
+    "service": "SkyHop 516",
+    "departure": "06:00",
+    "arrival": "07:00",
+    "durationHours": 1.4,
+    "distanceKm": 840,
+    "farePerPerson": 3290,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T37-1",
+    "from": "Delhi",
+    "to": "Varanasi",
+    "mode": "Train",
+    "service": "RR Express 518",
+    "departure": "16:00",
+    "arrival": "03:00",
+    "durationHours": 11,
+    "distanceKm": 715,
+    "farePerPerson": 780,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T37-2",
+    "from": "Delhi",
+    "to": "Varanasi",
+    "mode": "Train",
+    "service": "RR Express 519",
+    "departure": "07:00",
+    "arrival": "18:00",
+    "durationHours": 11,
+    "distanceKm": 715,
+    "farePerPerson": 870,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T37-1-R",
+    "from": "Varanasi",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 518",
+    "departure": "04:00",
+    "arrival": "15:00",
+    "durationHours": 11,
+    "distanceKm": 715,
+    "farePerPerson": 780,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T37-2-R",
+    "from": "Varanasi",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 519",
+    "departure": "19:00",
+    "arrival": "06:00",
+    "durationHours": 11,
+    "distanceKm": 715,
+    "farePerPerson": 870,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T38-1",
+    "from": "Mumbai",
+    "to": "Hyderabad",
+    "mode": "Flight",
+    "service": "SkyHop 521",
+    "departure": "19:00",
+    "arrival": "20:30",
+    "durationHours": 1.5,
+    "distanceKm": 900,
+    "farePerPerson": 3400,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T38-2",
+    "from": "Mumbai",
+    "to": "Hyderabad",
+    "mode": "Flight",
+    "service": "SkyHop 522",
+    "departure": "10:00",
+    "arrival": "11:30",
+    "durationHours": 1.5,
+    "distanceKm": 900,
+    "farePerPerson": 3490,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T38-1-R",
+    "from": "Hyderabad",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 521",
+    "departure": "07:00",
+    "arrival": "08:00",
+    "durationHours": 1.5,
+    "distanceKm": 900,
+    "farePerPerson": 3400,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T38-2-R",
+    "from": "Hyderabad",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 522",
+    "departure": "22:00",
+    "arrival": "23:00",
+    "durationHours": 1.5,
+    "distanceKm": 900,
+    "farePerPerson": 3490,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T39-1",
+    "from": "Hyderabad",
+    "to": "Kolkata",
+    "mode": "Flight",
+    "service": "SkyHop 524",
+    "departure": "08:00",
+    "arrival": "10:00",
+    "durationHours": 2,
+    "distanceKm": 1200,
+    "farePerPerson": 4100,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T39-2",
+    "from": "Hyderabad",
+    "to": "Kolkata",
+    "mode": "Flight",
+    "service": "SkyHop 525",
+    "departure": "13:00",
+    "arrival": "15:00",
+    "durationHours": 2,
+    "distanceKm": 1200,
+    "farePerPerson": 4190,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T39-1-R",
+    "from": "Kolkata",
+    "to": "Hyderabad",
+    "mode": "Flight",
+    "service": "SkyHop 524",
+    "departure": "20:00",
+    "arrival": "22:00",
+    "durationHours": 2,
+    "distanceKm": 1200,
+    "farePerPerson": 4100,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T39-2-R",
+    "from": "Kolkata",
+    "to": "Hyderabad",
+    "mode": "Flight",
+    "service": "SkyHop 525",
+    "departure": "01:00",
+    "arrival": "03:00",
+    "durationHours": 2,
+    "distanceKm": 1200,
+    "farePerPerson": 4190,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T40-1",
+    "from": "Mumbai",
+    "to": "Bengaluru",
+    "mode": "Flight",
+    "service": "SkyHop 527",
+    "departure": "11:00",
+    "arrival": "12:36",
+    "durationHours": 1.6,
+    "distanceKm": 960,
+    "farePerPerson": 3600,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T40-2",
+    "from": "Mumbai",
+    "to": "Bengaluru",
+    "mode": "Flight",
+    "service": "SkyHop 528",
+    "departure": "16:00",
+    "arrival": "17:36",
+    "durationHours": 1.6,
+    "distanceKm": 960,
+    "farePerPerson": 3690,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T40-1-R",
+    "from": "Bengaluru",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 527",
+    "departure": "23:00",
+    "arrival": "00:00",
+    "durationHours": 1.6,
+    "distanceKm": 960,
+    "farePerPerson": 3600,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T40-2-R",
+    "from": "Bengaluru",
+    "to": "Mumbai",
+    "mode": "Flight",
+    "service": "SkyHop 528",
+    "departure": "04:00",
+    "arrival": "05:00",
+    "durationHours": 1.6,
+    "distanceKm": 960,
+    "farePerPerson": 3690,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T41-1",
+    "from": "Bengaluru",
+    "to": "Kolkata",
+    "mode": "Flight",
+    "service": "SkyHop 530",
+    "departure": "14:00",
+    "arrival": "16:30",
+    "durationHours": 2.5,
+    "distanceKm": 1500,
+    "farePerPerson": 4700,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T41-2",
+    "from": "Bengaluru",
+    "to": "Kolkata",
+    "mode": "Flight",
+    "service": "SkyHop 531",
+    "departure": "19:00",
+    "arrival": "21:30",
+    "durationHours": 2.5,
+    "distanceKm": 1500,
+    "farePerPerson": 4790,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T41-1-R",
+    "from": "Kolkata",
+    "to": "Bengaluru",
+    "mode": "Flight",
+    "service": "SkyHop 530",
+    "departure": "02:00",
+    "arrival": "04:00",
+    "durationHours": 2.5,
+    "distanceKm": 1500,
+    "farePerPerson": 4700,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T41-2-R",
+    "from": "Kolkata",
+    "to": "Bengaluru",
+    "mode": "Flight",
+    "service": "SkyHop 531",
+    "departure": "07:00",
+    "arrival": "09:00",
+    "durationHours": 2.5,
+    "distanceKm": 1500,
+    "farePerPerson": 4790,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T42-1",
+    "from": "Lucknow",
+    "to": "Varanasi",
+    "mode": "Train",
+    "service": "RR Express 533",
+    "departure": "17:00",
+    "arrival": "22:00",
+    "durationHours": 5,
+    "distanceKm": 325,
+    "farePerPerson": 380,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T42-2",
+    "from": "Lucknow",
+    "to": "Varanasi",
+    "mode": "Train",
+    "service": "RR Express 534",
+    "departure": "08:00",
+    "arrival": "13:00",
+    "durationHours": 5,
+    "distanceKm": 325,
+    "farePerPerson": 470,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T42-1-R",
+    "from": "Varanasi",
+    "to": "Lucknow",
+    "mode": "Train",
+    "service": "RR Express 533",
+    "departure": "05:00",
+    "arrival": "10:00",
+    "durationHours": 5,
+    "distanceKm": 325,
+    "farePerPerson": 380,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T42-2-R",
+    "from": "Varanasi",
+    "to": "Lucknow",
+    "mode": "Train",
+    "service": "RR Express 534",
+    "departure": "20:00",
+    "arrival": "01:00",
+    "durationHours": 5,
+    "distanceKm": 325,
+    "farePerPerson": 470,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T43-1",
+    "from": "Bhopal",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 536",
+    "departure": "06:00",
+    "arrival": "14:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 690,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T43-2",
+    "from": "Bhopal",
+    "to": "Delhi",
+    "mode": "Train",
+    "service": "RR Express 537",
+    "departure": "11:00",
+    "arrival": "19:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 780,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T43-1-R",
+    "from": "Delhi",
+    "to": "Bhopal",
+    "mode": "Train",
+    "service": "RR Express 536",
+    "departure": "18:00",
+    "arrival": "02:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 690,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T43-2-R",
+    "from": "Delhi",
+    "to": "Bhopal",
+    "mode": "Train",
+    "service": "RR Express 537",
+    "departure": "23:00",
+    "arrival": "07:00",
+    "durationHours": 8,
+    "distanceKm": 520,
+    "farePerPerson": 780,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T44-1",
+    "from": "Nagpur",
+    "to": "Kolkata",
+    "mode": "Train",
+    "service": "RR Express 539",
+    "departure": "09:00",
+    "arrival": "00:00",
+    "durationHours": 15,
+    "distanceKm": 975,
+    "farePerPerson": 980,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T44-2",
+    "from": "Nagpur",
+    "to": "Kolkata",
+    "mode": "Train",
+    "service": "RR Express 540",
+    "departure": "14:00",
+    "arrival": "05:00",
+    "durationHours": 15,
+    "distanceKm": 975,
+    "farePerPerson": 1070,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T44-1-R",
+    "from": "Kolkata",
+    "to": "Nagpur",
+    "mode": "Train",
+    "service": "RR Express 539",
+    "departure": "21:00",
+    "arrival": "12:00",
+    "durationHours": 15,
+    "distanceKm": 975,
+    "farePerPerson": 980,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "T44-2-R",
+    "from": "Kolkata",
+    "to": "Nagpur",
+    "mode": "Train",
+    "service": "RR Express 540",
+    "departure": "02:00",
+    "arrival": "17:00",
+    "durationHours": 15,
+    "distanceKm": 975,
+    "farePerPerson": 1070,
+    "available": true,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "6e439ae2-33f8-440e-8b0c-32c4b6043da8",
+    "available": true,
+    "from": "Rajkot",
+    "to": "Ahmedabad",
+    "mode": "Bus",
+    "service": "Patel Tours & Travels",
+    "departure": "10:00",
+    "arrival": "16:00",
+    "durationHours": 6,
+    "distanceKm": 270,
+    "farePerPerson": 440,
+    "days": [
+      "Daily"
+    ]
+  },
+  {
+    "id": "c40a6f0a-86f8-4a90-a09d-0584f787acea",
+    "available": true,
+    "from": "Pune",
+    "to": "Ahmedabad",
+    "mode": "Train",
+    "service": "y8",
+    "departure": "20:09",
+    "arrival": "21:00",
+    "durationHours": 56,
+    "distanceKm": 205,
+    "farePerPerson": 1,
+    "days": [
+      "Daily"
+    ]
+  }
+]

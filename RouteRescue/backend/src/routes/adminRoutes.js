@@ -1,0 +1,2 @@
+import {Router} from 'express';import {authenticate,adminOnly} from '../middleware/auth.js';import * as c from '../controllers/adminController.js';
+const r=Router();r.use(authenticate,adminOnly);r.get('/dashboard',c.dashboard);r.get('/users',c.users);r.get('/feedback',c.feedback);r.get('/:resource',c.listResource);r.post('/:resource',c.createResource);r.delete('/:resource/:id',c.deleteResource);export default r;

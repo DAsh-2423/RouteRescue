@@ -1,0 +1,79 @@
+[
+  {
+    "id": "admin-1",
+    "name": "RouteRescue Admin",
+    "email": "admin@routerescue.local",
+    "phone": "9999999999",
+    "passwordHash": "$2a$10$R170M1RonhQ5dC5Ms1qmA.rLCjBD3aFv.uZV.1yeiIDxHAM0K9TQu",
+    "role": "admin",
+    "preferences": {}
+  },
+  {
+    "id": "4c9c0f35-9cb5-45c3-b6e9-d837c35c1ff7",
+    "name": "Ansh Kathrotiya",
+    "email": "anshkathrotiya60@gmail.com",
+    "phone": "9712385073",
+    "passwordHash": "$2a$10$u1Kahc.FZZSiooFBY.TQeetmiX3NfS1U7I2upWPUStgiPHqwWzyRC",
+    "role": "user",
+    "preferences": {}
+  },
+  {
+    "id": "2d4da184-7025-4b10-90f3-eacaf510d852",
+    "name": "Ritesh ",
+    "email": "rjs@gmail.com",
+    "phone": "1111222256",
+    "passwordHash": "$2a$10$7T1GPyWD2b.ZwZdLurIhDOrQ9506ZV/pC9MdJv6KM1buAtA9SNHLW",
+    "role": "user",
+    "preferences": {}
+  },
+  {
+    "id": "115a28e6-6003-4b72-a4df-63cf0556ddf4",
+    "name": "tar",
+    "email": "qwerty@in.in",
+    "phone": "9876543210",
+    "passwordHash": "$2a$10$.4PTBaXVu8djBSjku0qA9ee0ZMWdTTZccbPmtS4IiJKh2ae3q5EZC",
+    "role": "user",
+    "preferences": {}
+  },
+  {
+    "id": "09a058c3-72b7-48ba-afe5-40ea00ef6026",
+    "name": "Asha Rao",
+    "email": "student.1793990545829@example.com",
+    "phone": "9876543210",
+    "passwordHash": "$2a$10$YxIjzYjxyd8NzFK08Ar4BOlKM3P/N6OvUpUmhA4x8etSAamhZfOUm",
+    "role": "user",
+    "preferences": {}
+  },
+  {
+    "id": "ef6ef1d0-05fe-4093-b8ea-d6cba9d12e86",
+    "name": "Asha R",
+    "email": "student.1793990679907@example.com",
+    "phone": "9876543210",
+    "passwordHash": "$2a$10$rgbRqBdPuaQGwef7MM7mfOVqVJ.sN57fRncus46bOE4n1y1V1nHUm",
+    "role": "user",
+    "preferences": {
+      "preferredMode": "Train",
+      "budgetRange": "Moderate",
+      "journeyType": "Balanced",
+      "accommodationType": "Standard"
+    }
+  },
+  {
+    "id": "dc91c27d-562f-4eb7-867b-24d6a303bdac",
+    "name": "tarang lukho",
+    "email": "riteshxtarang69@gmail.com",
+    "phone": "9923266541",
+    "passwordHash": "$2a$10$10KyKVFY68ROgiq8Xp944uHtuGo950mhAb53X1omnAmqcD9MNLFgW",
+    "role": "user",
+    "preferences": {}
+  },
+  {
+    "id": "348ddb02-5026-4627-97ac-30e309520840",
+    "name": "ld",
+    "email": "ld@example.com",
+    "phone": "7894561230",
+    "passwordHash": "$2a$10$rQ.tobCH7e6UyHSOnGqTaOtPMmPLDuzsxjzXDbQdcCmPO0tY419hK",
+    "role": "user",
+    "preferences": {}
+  }
+]
