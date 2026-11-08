@@ -194,12 +194,159 @@ body { background: #f3f6fb; font-family: Inter, 'DM Sans', sans-serif; }
     linear-gradient(#fff, #fff);
 }
 
-/* Popular journeys and destinations: lift and photo zoom. No blue corner glow. */
+/* Popular journeys and destinations: lift and photo zoom. No corner glow. */
 .journey-card,
-.dest-card { transition: transform .25s ease, box-shadow .25s ease; }
+.dest-card { transition: transform .45s cubic-bezier(.22,1,.36,1), box-shadow .45s ease; }
 .journey-photo,
-.dest-photo { transition: transform .45s ease; }
+.dest-photo { transition: transform .6s cubic-bezier(.22,1,.36,1); }
 .journey-card:hover,
-.dest-card:hover { transform: translateY(-6px); box-shadow: 0 16px 30px rgba(8, 15, 30, 0.28); }
+.dest-card:hover { transform: translateY(-8px); box-shadow: 0 22px 40px rgba(17, 17, 17, 0.16); }
 .journey-card:hover .journey-photo,
-.dest-card:hover .dest-photo { transform: scale(1.07); }
+.dest-card:hover .dest-photo { transform: scale(1.06); }
+
+/* Incroy-style theme: white canvas, black type, violet accent. Layout and behavior stay the same. */
+:root {
+  --navy: #111111;
+  --blue: #6053e5;
+  --teal: #6053e5;
+  --muted: #5e5e6a;
+  --line: #ececf2;
+  color: #111;
+  background: #fff;
+  font-family: Inter, Arial, sans-serif;
+}
+body, .home, .site-shell { background: #fff; color: #111; }
+.site-nav {
+  background: rgba(255,255,255,.9);
+  border-bottom: 0;
+  backdrop-filter: blur(12px);
+}
+.site-logo, .site-logo strong { color: #6053e5; font-weight: 600; letter-spacing: -0.04em; }
+.site-logo small { color: #8a8a96; }
+.site-logo-mark { background: #f3f1ff; color: #6053e5; border-radius: 999px; }
+.site-nav nav { color: #2a2a32; font-weight: 500; }
+.site-nav nav a { transition: color .25s ease; }
+.site-nav nav a:hover { color: #6053e5; }
+.site-login, .plan-btn, .btn-primary, .plan-btn.auth-submit, .band-head a {
+  background: #6053e5;
+  color: #fff;
+  border-radius: 999px;
+  transition: transform .3s cubic-bezier(.22,1,.36,1), background .25s ease, box-shadow .3s ease;
+}
+.site-login:hover, .plan-btn:hover, .btn-primary:hover, .band-head a:hover {
+  background: #4e42d4;
+  transform: translateY(-2px);
+}
+.open-planner {
+  background: #111;
+  color: #fff;
+  border-radius: 999px;
+  transition: transform .3s cubic-bezier(.22,1,.36,1), background .25s ease;
+}
+.open-planner:hover { background: #6053e5; transform: translateY(-2px); }
+.hero-card h1, .home-block h2, .band h2, .auth-copy h1, .page-title h1, .welcome-row h1 {
+  color: #111;
+  font-weight: 500;
+  letter-spacing: -0.045em;
+}
+.hero-card h1 em, .section-kicker, .eyebrow, .hero-kicker, .auth-switch a { color: #6053e5; }
+.section-kicker, .hero-kicker { letter-spacing: 0; text-transform: none; font-weight: 600; }
+.hero-lead, .hero-side p, .prose-block p, .tool-card span, .reason-grid span, .step-grid span { color: #5e5e6a; }
+.hero-card {
+  border: 1px solid #efeff4;
+  box-shadow: none;
+  background:
+    radial-gradient(480px 320px at 0 0, rgba(96, 83, 229, 0.07), rgba(96, 83, 229, 0) 62%),
+    linear-gradient(90deg, #fff 46%, rgba(255,255,255,.2) 72%, transparent 100%),
+    radial-gradient(circle, rgba(96, 83, 229, 0.28) 1.1px, transparent 1.25px),
+    #fff;
+  background-size: auto, auto, 18px 18px, auto;
+}
+.hero-side, .stat-pills div, .side-grid div, .tool-card, .reason-grid article, .step-grid article {
+  background: #fff;
+  border: 1px solid #efeff4;
+  box-shadow: none;
+  transition: transform .35s cubic-bezier(.22,1,.36,1), border-color .25s ease;
+}
+.tool-card:hover, .reason-grid article:hover, .step-grid article:hover, .side-grid div:hover, .stat-pills div:hover {
+  transform: translateY(-4px);
+  border-color: #d9d4ff;
+}
+.mode-pills button { border-radius: 999px; transition: background .25s ease, color .25s ease, border-color .25s ease; }
+.mode-pills button.active { background: #6053e5; border-color: #6053e5; }
+.swap-btn { color: #6053e5; transition: transform .3s ease, background .25s ease; }
+.swap-btn:hover { transform: rotate(180deg); background: #f3f1ff; }
+.side-grid svg, .side-pill { color: #6053e5; }
+.side-pill { background: #f3f1ff; }
+.band, .band-dest { background: #121a2b; color: #fff; border-radius: 28px; }
+.band-dest { background: #162033; }
+.band h2, .band .section-kicker { color: #fff; }
+.band .section-kicker { color: #b7b0ff; }
+.band p { color: #b7c2d2; }
+.journey-card small, .dest-card small { color: #ececf2; }
+.site-footer { background: #111; color: #c8c8d0; }
+.site-footer h3, .footer-logo strong { color: #fff; }
+.site-footer a, .site-footer p, .footer-logo small { color: #b7b7c2; }
+.site-footer-bottom { border-top-color: #2a2a32; color: #9a9aa6; }
+.site-main:has(.page-wrap) { background: #fff; }
+.page-title, .welcome-row, .planner-panel, .itinerary-card, .stat-card, .admin-panel, .empty-state, .hotel-box {
+  border: 1px solid #efeff4;
+  box-shadow: none;
+  background: #fff;
+}
+.auth-screen { background-size: cover; background-position: center; }
+.auth-copy, .auth-copy h1 { color: #fff; }
+.auth-copy p { color: #e7e7f2; }
+.auth-panel { border: 1px solid #efeff4; box-shadow: none; }
+.field input, .field select, .field textarea { border-radius: 14px; border-color: #e6e6ee; transition: border-color .2s ease, box-shadow .2s ease; }
+.field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: #6053e5; box-shadow: 0 0 0 4px rgba(96, 83, 229, 0.12); }
+.admin-tabs button.active { background: #f3f1ff; color: #6053e5; }
+.auth-panel,
+.planner-panel,
+.itinerary-card {
+  background:
+    radial-gradient(520px 340px at 0 0, rgba(96, 83, 229, 0.08), rgba(96, 83, 229, 0) 60%),
+    #fff;
+}
+.hero-card:hover,
+.auth-panel:hover,
+.planner-panel:hover,
+.itinerary-card:hover {
+  box-shadow: 0 16px 36px rgba(96, 83, 229, 0.08);
+}
+.hero-card:hover {
+  background:
+    radial-gradient(480px 320px at 0 0, rgba(96, 83, 229, 0.12), rgba(96, 83, 229, 0) 62%),
+    linear-gradient(90deg, #fff 46%, rgba(255,255,255,.2) 72%, transparent 100%),
+    radial-gradient(circle, rgba(96, 83, 229, 0.34) 1.1px, transparent 1.25px),
+    #fff;
+  background-size: auto, auto, 18px 18px, auto;
+}
+.auth-panel:hover,
+.planner-panel:hover,
+.itinerary-card:hover {
+  background:
+    radial-gradient(540px 360px at 0 0, rgba(96, 83, 229, 0.12), rgba(96, 83, 229, 0) 62%),
+    #fff;
+}
+
+.page-fade { animation: pageIn .5s cubic-bezier(.22,1,.36,1); }
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: none; }
+}
+.reveal { opacity: 0; transform: translateY(26px); }
+.reveal.is-in {
+  opacity: 1;
+  transform: none;
+  transition: opacity .65s ease, transform .65s cubic-bezier(.22,1,.36,1);
+}
+.tool-card.reveal.is-in:hover,
+.reason-grid article.reveal.is-in:hover,
+.step-grid article.reveal.is-in:hover { transform: translateY(-4px); }
+.journey-card.reveal.is-in:hover,
+.dest-card.reveal.is-in:hover { transform: translateY(-8px); }
+@media (prefers-reduced-motion: reduce) {
+  .page-fade { animation: none; }
+  .reveal, .reveal.is-in { opacity: 1; transform: none; transition: none; }
+}

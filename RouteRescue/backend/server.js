@@ -27,4 +27,16 @@ app.use((err, _req, res, _next) => {
   res.status(err.status || 500).json({ message: err.message || 'Internal server error' });
 });
 const port = process.env.PORT || 5000;
-app.listen(port, () => console.log(`RouteRescue API running at http://localhost:${port}`));
+
+import connectDB from "./src/config/db.js";
+
+connectDB().then(async () => {
+  await ensureDataFiles();
+
+  app.listen(port, () => {
+    console.log(`RouteRescue API running at http://localhost:${port}`);
+  });
+}).catch((error) => {
+  console.error("Server startup failed:", error);
+  process.exit(1);
+});

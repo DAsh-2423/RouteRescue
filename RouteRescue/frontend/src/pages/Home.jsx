@@ -19,7 +19,7 @@ const DESTINATIONS = [
   { city: 'Goa', line: 'Beaches and a relaxed coastal arrival', from: 'Mumbai', image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=70' },
   { city: 'Jaipur', line: 'Forts, markets and the Pink City', from: 'Delhi', image: 'https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=800&q=70' },
   { city: 'Udaipur', line: 'Lakes and palace views in Rajasthan', from: 'Ahmedabad', image: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=800&q=70' },
-  { city: 'Varanasi', line: 'Ghats on the Ganga', from: 'Delhi', image: 'https://images.unsplash.com/photo-1561361513-2d000a50f0dc?auto=format&fit=crop&w=800&q=70' },
+  { city: 'Varanasi', line: 'Ghats on the Ganga', from: 'Delhi', image: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Boats_at_sunrise_Ganges_River_Varanasi_Uttar_Pradesh_Schwiki.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original' },
   { city: 'Agra', line: 'A short ride from Delhi', from: 'Delhi', image: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=800&q=70' }
 ];
 

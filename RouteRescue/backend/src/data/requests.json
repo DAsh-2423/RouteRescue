@@ -2638,5 +2638,63 @@
       "accommodation": "intermediate"
     },
     "resultsCount": 3
+  },
+  {
+    "id": "12455524-907c-430b-9a2c-22f246dc2397",
+    "userId": "b59bf612-fe99-4042-9918-833127ed3e56",
+    "createdAt": "2026-11-07T16:27:53.015Z",
+    "input": {
+      "source": "Chennai",
+      "destination": "Kolkata",
+      "date": "2026-11-14",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "fastest",
+      "modes": [
+        "Train",
+        "Bus"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 2
+  },
+  {
+    "id": "58b04618-1285-4dfc-903d-40071f9adc3f",
+    "userId": "b2e08557-9b58-4e28-9422-f4f80352afe8",
+    "createdAt": "2026-11-07T18:26:16.308Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Varanasi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train"
+      ],
+      "overnightStays": 0,
+      "accommodation": "none"
+    },
+    "resultsCount": 3
+  },
+  {
+    "id": "5d1325a5-2250-4806-bdb7-b6c1d774791e",
+    "userId": "b2e08557-9b58-4e28-9422-f4f80352afe8",
+    "createdAt": "2026-11-07T18:26:24.067Z",
+    "input": {
+      "source": "Mumbai",
+      "destination": "Varanasi",
+      "date": "2026-11-07",
+      "travellers": 1,
+      "budget": 5000,
+      "optimization": "balanced",
+      "modes": [
+        "Train"
+      ],
+      "overnightStays": 1,
+      "accommodation": "intermediate"
+    },
+    "resultsCount": 3
   }
 ]

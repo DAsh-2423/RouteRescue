@@ -1,4 +1,6 @@
-import { readData } from '../utils/dataStore.js';
+import City from '../models/City.js';
+import Transport from '../models/Transport.js';
+import Hotel from '../models/Hotel.js';
 
 // Convert HH:MM into minutes from midnight.
 const minutes = (time) => {
@@ -430,20 +432,28 @@ function tagHighlights(itineraries) {
 }
 
 export async function generateItineraries(input) {
-  const cityRecords = await readData('cities');
-  activeCoordinates = { ...CITY_COORDINATES };
-  for (const city of cityRecords) {
-    const latitude = Number(city.latitude);
-    const longitude = Number(city.longitude);
-    if (Number.isFinite(latitude) && Number.isFinite(longitude)) {
-      activeCoordinates[city.name] = [latitude, longitude];
-    }
-  }
-  if (!activeCoordinates[input.source] || !activeCoordinates[input.destination]) return [];
-  if (input.source === input.destination) return [];
+  
+ const [cityRecords, sampleEdges, hotels] = await Promise.all([
+  City.find({ available: { $ne: false } }).lean(),
+  Transport.find({ available: { $ne: false } }).lean(),
+  Hotel.find({ available: { $ne: false } }).lean()
+]);
 
-  const sampleEdges = await readData('transport');
-  const hotels = await readData('hotels');
+activeCoordinates = { ...CITY_COORDINATES };
+
+for (const city of cityRecords) {
+  const latitude = Number(city.latitude);
+  const longitude = Number(city.longitude);
+
+  if (Number.isFinite(latitude) && Number.isFinite(longitude)) {
+    activeCoordinates[city.name] = [latitude, longitude];
+  }
+}
+
+if (!activeCoordinates[input.source] || !activeCoordinates[input.destination]) return [];
+if (input.source === input.destination) return [];
+
+
   const budget = Number(input.budget) > 0 ? Number(input.budget) : Infinity;
   const requested = new Set((input.modes?.length ? input.modes : ['Train', 'Bus', 'Flight']).map((mode) => String(mode).toLowerCase()));
 

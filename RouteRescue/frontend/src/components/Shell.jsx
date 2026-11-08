@@ -1,4 +1,5 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { useLayoutEffect } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { MapPin, LogOut, UserRound } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
@@ -81,11 +82,36 @@ export function Footer() {
   );
 }
 
+const REVEAL = '.hero-card, .home-block, .band, .tool-card, .journey-card, .dest-card, .reason-grid article, .step-grid article, .page-title, .welcome-row, .planner-panel, .itinerary-card, .stat-card, .admin-panel, .auth-layout';
+
 export function AppLayout({ children }) {
+  const { pathname } = useLocation();
+
+  useLayoutEffect(() => {
+    const root = document.querySelector('.site-main');
+    if (!root) return undefined;
+    const nodes = [...root.querySelectorAll(REVEAL)];
+    nodes.forEach((node, index) => {
+      node.classList.add('reveal');
+      node.style.transitionDelay = `${(index % 6) * 70}ms`;
+    });
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-in');
+        observer.unobserve(entry.target);
+      });
+    }, { threshold: 0.16, rootMargin: '0px 0px -6% 0px' });
+    nodes.forEach((node) => observer.observe(node));
+    return () => observer.disconnect();
+  }, [pathname]);
+
   return (
     <div className="site-shell">
       <Navbar />
-      <div className="site-main">{children}</div>
+      <div className="site-main" key={pathname}>
+        <div className="page-fade">{children}</div>
+      </div>
       <Footer />
     </div>
   );
