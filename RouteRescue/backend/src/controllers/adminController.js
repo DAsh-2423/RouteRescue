@@ -16,6 +16,11 @@ function text(value) {
   return String(value ?? '').trim();
 }
 
+// Escape user text before it is placed inside a regular expression (prevents regex injection / ReDoS).
+function escapeRegex(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 function number(value) {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : NaN;
@@ -128,7 +133,7 @@ export async function createResource(req, res) {
     }
 
     const existingCity = await City.findOne({
-      name: { $regex: `^${cityName}$`, $options: 'i' }
+      name: { $regex: `^${escapeRegex(cityName)}$`, $options: 'i' }
     });
 
     if (existingCity) {

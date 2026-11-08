@@ -24,8 +24,18 @@ export async function updateProfile(req, res) {
 
   const { name, phone, email, preferences } = req.body;
 
-  if (name) user.name = name;
-  if (phone) user.phone = phone;
+  // Only plain strings / plain objects, with sane sizes.
+  const bad = msg => res.status(400).json({ message: msg });
+  if (name !== undefined && (typeof name !== 'string' || name.length > 100)) return bad('Enter a valid name.');
+  if (phone !== undefined && (typeof phone !== 'string' || phone.length > 20)) return bad('Enter a valid phone number.');
+  if (email !== undefined && typeof email !== 'string') return bad('Enter a valid email address.');
+  if (preferences !== undefined && (
+    typeof preferences !== 'object' || preferences === null || Array.isArray(preferences) ||
+    JSON.stringify(preferences).length > 2000
+  )) return bad('Invalid preferences.');
+
+  if (name) user.name = name.trim();
+  if (phone) user.phone = phone.trim();
 
   if (preferences) {
     user.preferences = {
@@ -35,7 +45,7 @@ export async function updateProfile(req, res) {
   }
 
   if (email) {
-    const next = String(email).toLowerCase();
+    const next = email.toLowerCase().trim();
 
     if (!/^\S+@\S+\.\S+$/.test(next)) {
       return res.status(400).json({
@@ -70,10 +80,13 @@ export async function submitFeedback(req, res) {
   const { rating, message, journeyId } = req.body;
 
   if (
-    !rating ||
-    rating < 1 ||
-    rating > 5 ||
-    !message?.trim()
+    !Number.isInteger(Number(rating)) ||
+    Number(rating) < 1 ||
+    Number(rating) > 5 ||
+    typeof message !== 'string' ||
+    !message.trim() ||
+    message.length > 2000 ||
+    (journeyId !== undefined && journeyId !== null && (typeof journeyId !== 'string' || journeyId.length > 64))
   ) {
     return res.status(400).json({
       message: 'Provide a rating from 1–5 and a message.'

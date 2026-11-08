@@ -7,7 +7,12 @@ import { generateItineraries } from '../algorithms/routeEngine.js';
 
 
 export async function plan(req, res) {
-  const b = req.body;
+  const b = req.body || {};
+
+  // Cities and date must be plain strings (blocks query-operator injection).
+  if (typeof b.source !== 'string' || typeof b.destination !== 'string' || typeof b.date !== 'string') {
+    return res.status(400).json({ message: 'Invalid journey details.' });
+  }
 
   if (!b.source || !b.destination || b.source === b.destination) {
     return res.status(400).json({
@@ -41,10 +46,20 @@ export async function plan(req, res) {
     });
   }
 
+  if (b.modes !== undefined && !(Array.isArray(b.modes) && b.modes.length <= 3 && b.modes.every(m => typeof m === 'string' && m.length <= 20))) {
+    return res.status(400).json({ message: 'Invalid travel modes.' });
+  }
+
+  // Clamp numeric inputs to sane ranges (also removes NaN).
+  const clamp = (value, min, max) => {
+    const n = Math.floor(Number(value));
+    return Number.isFinite(n) ? Math.min(max, Math.max(min, n)) : min;
+  };
+
   const input = {
     ...b,
-    travellers: Math.max(1, Number(b.travellers || 1)),
-    overnightStays: Math.max(0, Number(b.overnightStays || 0))
+    travellers: clamp(b.travellers || 1, 1, 100),
+    overnightStays: clamp(b.overnightStays || 0, 0, 30)
   };
 
   const itineraries = await generateItineraries(input);
@@ -84,7 +99,11 @@ export async function plan(req, res) {
 
 
 export async function save(req, res) {
-  const { id: ignoredId, userId: ignoredUserId, ...body } = req.body;
+  const { id: ignoredId, userId: ignoredUserId, _id: ignoredMongoId, createdAt: ignoredCreatedAt, ...body } = req.body || {};
+
+  if (typeof body.source !== 'string' || typeof body.destination !== 'string' || !body.source || !body.destination) {
+    return res.status(400).json({ message: 'Invalid journey.' });
+  }
 
   const record = await Journey.create({
     ...body,
@@ -109,7 +128,7 @@ export async function history(req, res) {
 
 export async function remove(req, res) {
   const found = await Journey.findOneAndDelete({
-    id: req.params.id,
+    id: String(req.params.id),
     userId: req.user.id
   });
 

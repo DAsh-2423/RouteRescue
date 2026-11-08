@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import helmet from 'helmet';
 import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -9,13 +10,21 @@ import journeyRoutes from './src/routes/journeyRoutes.js';
 import adminRoutes from './src/routes/adminRoutes.js';
 import feedbackRoutes from './src/routes/feedbackRoutes.js';
 import { ensureDataFiles } from './src/utils/dataStore.js';
+import { assertSecurityConfig } from './src/utils/token.js';
+import { sanitizeRequest, apiLimiter } from './src/middleware/security.js';
 
 dotenv.config();
+assertSecurityConfig(); // refuse to start with a weak / placeholder JWT secret
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 await ensureDataFiles();
 const app = express();
+app.disable('x-powered-by');
+if (process.env.TRUST_PROXY) app.set('trust proxy', Number(process.env.TRUST_PROXY) || 1); // set when behind nginx/Render/etc.
+app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } })); // security headers
 app.use(cors({ origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173' }));
-app.use(express.json({ limit: '1mb' }));
+app.use(express.json({ limit: '200kb' }));
+app.use(sanitizeRequest); // strips $operators / __proto__ from client input
+app.use('/api', apiLimiter);
 app.get('/api/health', (_req, res) => res.json({ status: 'ok', app: 'RouteRescue API' }));
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
@@ -24,7 +33,9 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/feedback', feedbackRoutes);
 app.use((err, _req, res, _next) => {
   console.error(err);
-  res.status(err.status || 500).json({ message: err.message || 'Internal server error' });
+  const status = err.status || err.statusCode || 500;
+  // Never leak internal error details to the client.
+  res.status(status).json({ message: status < 500 ? (err.message || 'Bad request') : 'Internal server error' });
 });
 const port = process.env.PORT || 5000;
 
