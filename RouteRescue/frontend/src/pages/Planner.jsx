@@ -254,17 +254,7 @@ const [form, setForm] = useState(() => {
             />
           </label>
 
-          <label className="field">
-            <span><SlidersHorizontal /> Optimize for</span>
-            <select
-              value={form.optimization}
-              onChange={e => set('optimization', e.target.value)}
-            >
-              <option value="balanced">Balanced</option>
-              <option value="cheapest">Cheapest</option>
-              <option value="fastest">Fastest</option>
-            </select>
-          </label>
+          
 
         </div>
 
