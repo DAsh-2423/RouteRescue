@@ -74,12 +74,25 @@ const [form, setForm] = useState(() => {
 
   // Load available cities
   useEffect(() => {
-    api.get('/users/cities')
-      .then(r => setCities(r.data))
-      .catch(() =>
-        setError('Could not load city list. Is the backend running?')
-      );
-  }, []);
+  api.get('/cities')
+    .then(r => {
+      setCities(r.data);
+
+      // Keep saved/default selections if they exist in the city list.
+      setForm(previous => ({
+        ...previous,
+        source: r.data.some(c => c.name === previous.source)
+          ? previous.source
+          : r.data[0]?.name || '',
+        destination: r.data.some(c => c.name === previous.destination)
+          ? previous.destination
+          : r.data.find(c => c.name !== previous.source)?.name || ''
+      }));
+    })
+    .catch(() =>
+      setError('Could not load city list. Is the backend running?')
+    );
+}, []);
 
   // Save form and results whenever they change
   useEffect(() => {

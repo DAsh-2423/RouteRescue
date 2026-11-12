@@ -151,6 +151,9 @@ export async function createResource(req, res) {
     };
   }
 
+
+
+
   if (name === 'transport') {
     const from = await findCity(body.from);
     const to = await findCity(body.to);
@@ -269,8 +272,19 @@ export async function createResource(req, res) {
 
   const createdItem = await Model.create(item);
 
+  if (name === 'cities') {
+  const result = await City.updateMany(
+    { available: { $ne: true } },
+    { $set: { available: true } }
+  );
+
+  console.log(`Cities activated: ${result.modifiedCount}`);
+}
+
   res.status(201).json(createdItem.toObject());
 }
+
+
 
 export async function deleteResource(req, res) {
   const Model = getModel(req.params.resource);

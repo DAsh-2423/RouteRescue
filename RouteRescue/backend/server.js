@@ -12,6 +12,9 @@ import feedbackRoutes from './src/routes/feedbackRoutes.js';
 import { ensureDataFiles } from './src/utils/dataStore.js';
 import { assertSecurityConfig } from './src/utils/token.js';
 import { sanitizeRequest, apiLimiter } from './src/middleware/security.js';
+import cityRoutes from './src/routes/cityRoutes.js';
+
+
 
 dotenv.config();
 assertSecurityConfig(); // refuse to start with a weak / placeholder JWT secret
@@ -31,6 +34,8 @@ app.use('/api/users', userRoutes);
 app.use('/api/journeys', journeyRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/feedback', feedbackRoutes);
+app.use('/api/cities', cityRoutes);
+
 app.use((err, _req, res, _next) => {
   console.error(err);
   const status = err.status || err.statusCode || 500;
